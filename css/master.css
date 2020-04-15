@@ -1,0 +1,59 @@
+body{
+  background-color: #FDFFED;
+  margin-left: 15%;
+  margin-right:15%;
+}
+
+.resHalf{
+  width:80%;
+}
+
+.resThird{
+  width: 100%;
+}
+
+.flexThird{
+  width: 33%;
+}
+.flexSmallThird{
+  width:17%;
+}
+
+.resFlexGroup{
+  width: 50%;
+}
+
+.resTitle{
+  display:block;
+}
+
+#yesAccess{
+  display: none;
+}
+
+.resNames, .resRow{
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row nowrap;
+  -webkit-flex-flow: row nowrap;
+}
+
+.resWrap{
+  line-height: 1.5em;
+}
+
+div{
+  padding-bottom:0.5em;
+}
+
+main p{
+  text-align: center;
+}
+
+input {
+  height: 30px;
+}
+
+select{
+  height:30px;
+}
