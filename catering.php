@@ -35,4 +35,9 @@
     </div>
     <!-- NAVIGATION End -->
   </body>
-  
+  <div class="container">
+    <div class="blurb">
+      <h1>Catering</h1>
+      <p>This will be a very well written paragraph about the catering and how it works. it basically just gives them some stuff to read before they fill out the form. It's not important. Just kinda filler tbh. I'm not sure if i have typed enough yet. Feels like it. Can't really tell. I don't have soft wrap on and it just kinda keeps going. Ok im gonna be done now. K thanks.</p>
+    </div>
+  </div>
