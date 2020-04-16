@@ -19,8 +19,12 @@ body {
   flex-flow: row nowrap;
   justify-content: center;
   background-color: white;
-  padding: .5rem;
+  padding: .75rem;
   box-shadow: 5px 5px 5px grey;
+}
+
+.big-picture, .small-picture {
+  padding-top: 1.5rem;
 }
 
 .copy {text-align: justify;}
@@ -38,6 +42,7 @@ body {
   color: white;
   padding-bottom: 5rem;
   padding-top: 2rem;
+  text-shadow:  5px 5px 5px grey;
 }
 
 .header-btn h2 {
@@ -54,4 +59,23 @@ body {
 
 .header-btn a:hover {
   background-color: #CAA71D;
+}
+
+.favorites {
+  padding-top: 3rem;
+}
+
+.favorites-pics {
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+div h5 {
+  text-align: center;
+  font-weight: bold;
 }
