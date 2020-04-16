@@ -63,6 +63,11 @@ body{
     justify-content: center;
     -webkit-justify-content:center;
   }
+
+  .resWrap{
+    margin-left: 15%;
+    margin-right: 15%;
+  }
   .resNames, .resRow{
     display: flex;
     display: -webkit-flex;
@@ -123,11 +128,13 @@ body{
   list-style-type: none;
   }
 
-  .resNames, .resRow{
+  .resNames, .resRow, .resWrap{
     display: flex;
     display: -webkit-flex;
     flex-flow: column wrap;
     -webkit-flex-flow: column wrap;
+    margin-left: 5%;
+    margin-right:5%;
   }
   .resHalf, .flexThird, .flexSmallThird, .resFlexGroup {
     width:100%;
