@@ -61,7 +61,7 @@ body {
 }
 
 .favorites {
-  padding-top: 1rem;
+  padding-top: 3rem;
 }
 
 .favorites-pics {
@@ -72,4 +72,9 @@ body {
 div {
   padding-left: .5rem;
   padding-right: .5rem;
+}
+
+div h5 {
+  text-align: center;
+  font-weight: bold;
 }
