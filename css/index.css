@@ -35,4 +35,15 @@ body {
   justify-content: center;
   align-items: center;
   align-content: center;
+  color: white;
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+}
+
+.header-btn a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  background-color:#EBC52C;
+  padding: .5rem;
 }
