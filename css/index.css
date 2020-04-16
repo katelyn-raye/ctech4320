@@ -1,9 +1,19 @@
 
 body {
   background-color: #f5f7dc;
+}
+
+.wrapper {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.container-index {
   background-image: url('../images/artboard1.png');
   background-repeat: no-repeat;
+  background-size: contain;
 }
+
 .bio {
   display: flex;
   flex-flow: row nowrap;
