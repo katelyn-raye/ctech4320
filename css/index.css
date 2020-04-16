@@ -103,3 +103,8 @@ div h5 {
 
   }
 }
+
+@media (max-width: 768px){
+  .wrapper {margin:0;}
+
+}
