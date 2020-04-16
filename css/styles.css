@@ -52,14 +52,19 @@ body{
 }
 
 @media only screen and (min-width: 769px){
-  .navbar-toggler,.navbar-brand{
+  .responsive-nav{
     display:none;
   }
 }
 
 @media only screen and (max-width: 768px){
-  .navbar-toggler,.navbar-brand{
-    display: block;
+  .responsive-nav{
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+
+    background-color: #4D5057;
   }
   .navbar-collapse{
     display: none;

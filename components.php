@@ -3,11 +3,14 @@ function makeHeader ($page) {
 
 	$header = '<header>
     <div class ="navbar">
+		<div class = "responsive-nav">
       <button type="button" class="navbar-toggler" data-target="#mainNavigation">
           <i class="fa fa-bars"></i>
       </button>
 
+
       <a class="navbar-brand" href="index.html" title="Branding">Brand</a>
+			</div>
 
     <!-- NAVIGATION-->
       <div id="mainNavigation" class="navbar-collapse">
