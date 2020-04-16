@@ -83,6 +83,12 @@ div h5 {
 @media (max-width: 992px){
   .header-btn p {
     color: black;
+    text-shadow:none;
+  }
+
+  .header-btn h2 {
+    color:black;
+    text-shadow: none;
   }
 
   .big-picture{
