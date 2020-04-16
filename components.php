@@ -21,6 +21,9 @@ function makeHeader ($page) {
               <li class="navbar-item">
                   <a class="navbar-link" href="catering.html" title="Catering">Catering</a>
               </li>
+							<li class="navbar-item">
+                  <a class="navbar-link" href="reservation.php" title="Reservation">Online Reservation</a>
+              </li>
               <li class="navbar-item">
                   <a class="navbar-link" href="contact.html" title="Contact">Contact</a>
               </li>
