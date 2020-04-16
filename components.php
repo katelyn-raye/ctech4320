@@ -9,11 +9,12 @@ function makeHeader ($page) {
       </button>
 
 
-      <img src="spaghetti.svg" title="logo" alt="logo"><a class="navbar-brand" href="index.html" title="Branding">Brand</a></img>
+      <a class="navbar-brand" href="index.html" title="Branding"><img src="spaghetti.svg" title="logo" alt="logo">Brand</img></a></img>
 			</div>
 
     <!-- NAVIGATION-->
       <div id="mainNavigation" class="navbar-collapse">
+			<a class="navbar-brand" href="index.html" title="Branding"><img src="spaghetti.svg" title="logo" alt="logo">Brand</img></a></img>
           <ul class="navbar-nav">
               <li class="navbar-item">
                   <a class="navbar-link" href="index.html" title="Home">Home</a>

@@ -110,8 +110,19 @@ body{
     display: -webkit-flex;
     flex-flow: row nowrap;
     -webkit-flex-flow: row nowrap;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    align-items: space-between;
+    -webkit-align-content: space-between;
+    -webkit-align-items: space-between;
+    align-content: space-between;
 
     background-color: #4D5057;
+  }
+
+  a.navbar-brand{
+    width:3em;
+    height:3em;
   }
 
   .navbar-nav{

@@ -25,10 +25,12 @@ $output="<p>Thank you <span class='resEmphasis'>$fName</span>, we'll have a tabl
 
   </head>
   <body>
+    <div class="resWrap">
     <p>
       <?php echo makeHeader('header'); ?>
     	<?php echo $output ?>
     </p>
+  </div>
   </body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="basic.js"></script>
