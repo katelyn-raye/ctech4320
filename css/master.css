@@ -40,6 +40,7 @@ body{
 
 .resWrap{
   line-height: 1.5em;
+  color:#4D5057;
 }
 
 div{
@@ -48,6 +49,7 @@ div{
 
 main p{
   text-align: center;
+  color: #DB4C40;
 }
 
 input {
