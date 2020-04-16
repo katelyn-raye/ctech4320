@@ -20,7 +20,7 @@
 <body>
     <!-- NAVIGATION End -->
     <?php echo makeHeader('header'); ?>
-    
+
     <div class="container-index">
       <div class="wrapper">
       <div class="col-lg-12 col-md-12 col-xs-12 header-btn">

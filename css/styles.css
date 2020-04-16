@@ -47,6 +47,11 @@ body{
 	height: 50px;
 }
 
+.navbar-brand {
+  display: block;
+  overflow: hidden;
+  background: url('../images/spaghetti.svg') no-repeat;}
+
 @media only screen and (min-width: 769px){
   .responsive-nav{
     display:none;
