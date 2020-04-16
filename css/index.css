@@ -3,3 +3,9 @@
   flex-flow: row nowrap;
   justify-content: center;
 }
+
+.copy {text-align: justify;}
+
+.big-picture {
+  padding-right: .5rem;
+}
