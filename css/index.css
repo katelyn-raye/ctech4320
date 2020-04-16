@@ -24,7 +24,7 @@ body {
 }
 
 .big-picture, .small-picture {
-  padding-top: .5rem;
+  padding-top: 1.5rem;
 }
 
 .copy {text-align: justify;}
@@ -58,4 +58,18 @@ body {
 
 .header-btn a:hover {
   background-color: #CAA71D;
+}
+
+.favorites {
+  padding-top: 1rem;
+}
+
+.favorites-pics {
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  padding-left: .5rem;
+  padding-right: .5rem;
 }
