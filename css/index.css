@@ -1,7 +1,13 @@
+
+body {
+  background-color: #f5f7dc;
+}
 .bio {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
+  background-color: white;
+  padding: 1rem;
 }
 
 .copy {text-align: justify;}
