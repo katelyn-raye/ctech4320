@@ -105,6 +105,11 @@ body{
     background-color: #4D5057;
   }
 
+  .navbar-nav{
+    margin:0;
+    padding:0;
+  }
+
   .navbar-toggler{
     background-color: transparent;
     border-color: transparent;
