@@ -42,6 +42,7 @@ body {
   color: white;
   padding-bottom: 5rem;
   padding-top: 2rem;
+  text-shadow:  5px 5px 5px grey;
 }
 
 .header-btn h2 {
