@@ -19,8 +19,12 @@ body {
   flex-flow: row nowrap;
   justify-content: center;
   background-color: white;
-  padding: .5rem;
+  padding: .75rem;
   box-shadow: 5px 5px 5px grey;
+}
+
+.big-picture, .small-picture {
+  padding-top: .5rem;
 }
 
 .copy {text-align: justify;}
