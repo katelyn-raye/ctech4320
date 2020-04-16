@@ -127,10 +127,13 @@ body{
     display: -webkit-flex;
     flex-flow: column nowrap;
     -webkit-flex-flow: column nowrap;
+
   }
 
   #mainNavigation li{
   list-style-type: none;
+  text-align: left;
+  padding-bottom:1em;
   }
 
   .resNames, .resRow, .resWrap{
