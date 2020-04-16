@@ -19,7 +19,7 @@ body {
   flex-flow: row nowrap;
   justify-content: center;
   background-color: white;
-  padding: 1rem;
+  padding: .5rem;
   box-shadow: 5px 5px 5px grey;
 }
 
@@ -40,10 +40,18 @@ body {
   padding-top: 2rem;
 }
 
+.header-btn h2 {
+  padding-bottom: 0;
+}
+
 .header-btn a {
-  color: white;
+  color: black;
   display: block;
   text-decoration: none;
   background-color:#EBC52C;
   padding: .5rem;
+}
+
+.header-btn a:hover {
+  background-color: #CAA71D;
 }
