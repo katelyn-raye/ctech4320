@@ -2,16 +2,13 @@
 $fName = $_POST['fName'];
 $lNamee = $_POST['lName'];
 $partySize = $_POST['partySize'];
- date_format($date, "mm '/' dd"); = $_POST['resDate'];
+$date = $_POST['var'];
 $time = $_POST['resTime'];
 $checkbox = $_POST['access'];
 $bgcolor = $_POST['partyAccess'];
 
 $permitted_chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 $code = substr(str_shuffle($permitted_chars), 0, 5);
-
-$date(g:i:s A, M. j, Y);
-
 
 $output="<p>Thank you $fName, we'll have a table ready for your party of $partySize at $time on $date. </p> <p>Your code is:</p> $code <p>Show this code to the host to check in.</p>";
 
