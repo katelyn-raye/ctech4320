@@ -1,6 +1,8 @@
 
 body {
   background-color: #f5f7dc;
+  background-image: url('../images/artboard1.png');
+  background-repeat: no-repeat;
 }
 .bio {
   display: flex;
@@ -18,7 +20,6 @@ body {
 }
 
 .header-btn {
-  background-image: url('images/artboard 1.png');
   display:flex;
   flex-flow: column;
   justify-content: center;
