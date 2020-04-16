@@ -59,3 +59,14 @@ input {
 select{
   height:30px;
 }
+
+
+/*form styles*/
+
+.resEmphasis{
+  color: #DB4C40;
+}
+
+.resCode{
+  font-size: 5em;
+}
