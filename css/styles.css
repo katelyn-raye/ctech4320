@@ -10,3 +10,38 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url("grid.css");
+
+ /* Navigation */
+.navbar {
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  align-items: flex-end;
+  -webkit-align-itmes: flex-end;
+  align-content: flex-start;
+  -webkit-align-content: flex-start;
+  padding:0;
+  text-transform: uppercase;
+}
+
+@media (min-width: 992px) {
+
+	.navbar {
+		  max-width: 1200px;
+		  margin-left: auto;
+		  margin-right: auto;
+		  padding-left: 1rem;
+		  padding-right: 1rem;
+	}
+
+  .navbar .navbar-brand {
+    display: block;
+    overflow: hidden;
+    background: url('images/spaghetti.png') no-repeat 0 0/contain transparent;
+    width: 250px;
+    height: 40px;
+    text-indent: -99999px;
+  }
