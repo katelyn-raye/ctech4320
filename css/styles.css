@@ -50,14 +50,17 @@ body{
 
 }
 
+@media only screen and (max-width: 768px){
+  #mainNavigation{
 
+  }
+}
 
 
 
 /**ORIGINALLY FROM MASTER CSS**/
 body{
   background-color: #FDFFED;
-
 }
 
 .resHalf{
