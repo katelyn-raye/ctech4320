@@ -1,4 +1,5 @@
-$header ="  <header>
+<?php
+$header =  <header>
     <div class ="navbar">
       <button type="button" class="navbar-toggler" data-target="#mainNavigation">
           <i class="fa fa-bars"></i>
@@ -25,4 +26,5 @@ $header ="  <header>
       </div>
     </div>
     <!-- NAVIGATION End -->
-    </header>"
+    </header>
+?>
