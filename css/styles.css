@@ -128,3 +128,23 @@ select{
   color: #DB4C40;
   font-size: 150%;
 }
+
+.submit-button{
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row nowrap;
+  -webkit-flex-flow: row nowrap;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  align-content: center;
+  -webkit-align-content: center;
+
+}
+
+.submit-btn{
+  background-color:#DB4C40;
+  color:white;
+  border:#DB4C40;
+}

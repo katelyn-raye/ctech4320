@@ -98,7 +98,9 @@
              <option value="partyNine">9</option>
              </select>
            </div>
-        <input type="Submit" name="SubmitThis" value="Submit">
+					 <div class="submit-button">
+        <input type="Submit" name="SubmitThis" value="Submit" class="submit-btn">
+					</div>
        </form>
 
     </div>
