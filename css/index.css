@@ -107,4 +107,11 @@ div h5 {
 @media (max-width: 768px){
   .wrapper {margin:0;}
 
+  .favorites-pics{
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
 }
