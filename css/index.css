@@ -8,10 +8,20 @@ body {
   justify-content: center;
   background-color: white;
   padding: 1rem;
+  box-shadow: 5px 5px 5px grey;
 }
 
 .copy {text-align: justify;}
 
 .big-picture {
   padding-right: .5rem;
+}
+
+.header-btn {
+  background-image: url('images/artboard 1.png');
+  display:flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
