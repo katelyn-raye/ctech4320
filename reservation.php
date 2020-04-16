@@ -1,3 +1,6 @@
+<?php
+	include ('components.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -12,7 +15,7 @@
   </head>
   <body>
 
-      <?php include('components.php') ?>
+      <?php echo makeHeader('header'); ?>
 
     <main>
 

@@ -1,5 +1,7 @@
 <?php
-$header =  <header>
+function makeHeader ($page) {
+
+	$header = '<header>
     <div class ="navbar">
       <button type="button" class="navbar-toggler" data-target="#mainNavigation">
           <i class="fa fa-bars"></i>
@@ -26,5 +28,9 @@ $header =  <header>
       </div>
     </div>
     <!-- NAVIGATION End -->
-    </header>
+    </header>';
+
+	return $header;
+}
+
 ?>
