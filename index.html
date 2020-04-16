@@ -11,16 +11,47 @@
 
     <link rel="stylesheet" href="css/styles.css">
 
-    <?php
-    include ('components.php')
-    ?>
-
 </head>
-
 <body>
+  <header>
+    <div class ="navbar">
+		<div class = "responsive-nav">
+      <button type="button" class="navbar-toggler" data-target="#mainNavigation">
+          <i class="fa fa-bars"></i>
+      </button>
+
+
+      <a class="navbar-brand" href="index.html" title="Branding"><img src="spaghetti.svg" title="logo" alt="logo">Brand</img></a></img>
+			</div>
+
+    <!-- NAVIGATION-->
+      <div id="mainNavigation" class="navbar-collapse">
+          <ul class="navbar-nav">
+            <a class="navbar-brand" href="index.html" title="Branding"><img src="spaghetti.svg" title="logo" alt="logo">Brand</img></a></img>
+              <li class="navbar-item">
+                  <a class="navbar-link" href="index.html" title="Home">Home</a>
+              </li>
+              <li class="navbar-item">
+                  <a class="navbar-link" href="#" title="Menu">Menu</a>
+              </li>
+              <li class="navbar-item">
+                  <a class="navbar-link" href="catering.html" title="Catering">Catering</a>
+              </li>
+							<li class="navbar-item">
+                  <a class="navbar-link" href="reservation.php" title="Reservation">Online Reservation</a>
+              </li>
+              <li class="navbar-item">
+                  <a class="navbar-link" href="contact.html" title="Contact">Contact</a>
+              </li>
+          </ul>
+      </div>
+
+    </div>
     <!-- NAVIGATION End -->
-    <?php echo makeHeader('header'); ?>
-    
+    </header>
+    <!-- NAVIGATION End -->
+
+
     <div class="container-index">
       <div class="wrapper">
       <div class="col-lg-12 col-md-12 col-xs-12 header-btn">

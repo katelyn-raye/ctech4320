@@ -9,7 +9,7 @@ function makeHeader ($page) {
       </button>
 
 
-      <a class="navbar-brand" href="index.html" title="Branding">Brand</a>
+      <img src="spaghetti.svg" title="logo" alt="logo"><a class="navbar-brand" href="index.html" title="Branding">Brand</a></img>
 			</div>
 
     <!-- NAVIGATION-->
