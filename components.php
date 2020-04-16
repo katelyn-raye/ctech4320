@@ -15,9 +15,6 @@ function makeHeader ($page) {
     <!-- NAVIGATION-->
       <div id="mainNavigation" class="navbar-collapse">
           <ul class="navbar-nav">
-					<li class="navbar-item">
-						<img src="spaghetti.svg" title="logo" alt="logo">
-						</li>
               <li class="navbar-item">
                   <a class="navbar-link" href="index.html" title="Home">Home</a>
               </li>

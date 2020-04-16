@@ -47,10 +47,14 @@ body{
 	height: 50px;
 }
 
-.navbar-brand {
+.navbar .navbar-brand {
   display: block;
   overflow: hidden;
-  background: url('../images/spaghetti.svg') no-repeat;}
+  background: url('../images/Spaghetti.svg') no-repeat 0 0/contain transparent;
+  width: 250px;
+  height: 40px;
+  text-indent: -99999px;}
+
 
 @media only screen and (min-width: 769px){
   .responsive-nav{
