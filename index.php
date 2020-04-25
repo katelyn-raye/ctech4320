@@ -10,6 +10,10 @@
     <meta name="author" content="Katelyn Needham & Kathryn Kerr">
 
     <link rel="stylesheet" href="css/styles.css">
+
+    <?php
+    include makeHeader('header');
+     ?>
 </head>
 
 <body>
