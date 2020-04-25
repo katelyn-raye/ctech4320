@@ -93,6 +93,7 @@ body{
         transition: 0.5s;
       }*/
 
+
 /*#mainNavigation{
   background-color: #4D5057;
   padding: 1em 0;
@@ -310,7 +311,29 @@ select{
 }
 
 .submit-btn{
-  background-color:#DB4C40;
-  color:white;
-  border:#DB4C40;
+  background-color: #CF4336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  }
 }
+
+select{
+  border:1px solid #BBBBBB;
+}
+
+input[type=text]{
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: block;
+        border: none;
+        border-bottom: 1px solid #BBBBBB;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+      }
+
+      input[type=text]:focus{
+        border: none;
+        border-bottom: 1px solid black;
+      }
