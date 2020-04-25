@@ -22,6 +22,78 @@ body{
 }
 
 #mainNavigation{
+  padding: 0;
+}
+
+      .navigation{
+        color: white;
+        padding: 0;
+        margin: 0;
+      }
+      .nav-top{
+        display: flex;
+        display: -webkit-flex;
+        flex-flow: row nowrap;
+        -webkit-flex-flow: row nowrap;
+        justify-content: space-between;
+        -webkit-justify-content: space-between;
+        align-items: flex-start;
+        -webkit-align-items: flex-start;
+        align-content: space-between;
+        -webkit-align-content: space-between;
+
+        background-color: #DB4C40;
+        padding: 1em; 0;
+      }
+
+      .nav-bottom{
+        padding: 0;
+      }
+
+      .nav-bottom ul{
+        display: flex;
+        display: -webkit-flex;
+        flex-flow: row nowrap;
+        -webkit-flex-flow: row nowrap;
+        justify-content: space-between;
+        -webkit-justify-content: space-between;
+        align-items: flex-start;
+        -webkit-align-items: flex-start;
+        align-content: space-between;
+        -webkit-align-content: space-between;
+        padding: 0 15%;
+        margin: 0;
+
+        list-style-type: none;
+        background-color: #CF4336;
+      }
+
+
+      .nav-bottom li{
+        list-style-type: none;
+        padding: 1em 1em;
+      }
+
+      .nav-bottom a{
+        padding: 1em 2em;
+        text-decoration: none;
+        color: white;
+      }
+      .nav-bottom a:hover{
+        background-color: white;
+        color: #CF4336;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+      }
+
+    /*  .nav-bottom li:hover{
+        background-color: white;
+        color: #CF4336;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+      }*/
+
+/*#mainNavigation{
   background-color: #4D5057;
   padding: 1em 0;
 }
@@ -35,17 +107,17 @@ body{
 
 #mainNavigation ul a:hover{
   color: #DB4C40;
-}
+}*/
 
 
-.navbar{
+/*.navbar{
   position: fixed;
 	top: 0;
 	left: 0;
   z-index: 9999;
 	width: 100%;
 	height: 50px;
-}
+}*/
 
 .navbar .navbar-brand {
   display: block;
