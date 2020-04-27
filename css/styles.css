@@ -347,3 +347,26 @@ input[type=text]{
         border: none;
         border-bottom: 1px solid black;
       }
+
+
+/* contact page starts here */
+
+.contact-container {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.map {
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
