@@ -370,3 +370,9 @@ input[type=text]{
   padding-top: 3rem;
   padding-left: 2rem;
 }
+
+@media (max-width: 768px){
+  .map {
+    display: none;
+  }
+}
