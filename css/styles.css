@@ -190,7 +190,7 @@ body{
     -webkit-align-items: space-between;
     align-content: space-between;
 
-    background-color: #4D5057;
+  
   }
 
   a.navbar-brand{
@@ -247,10 +247,6 @@ body{
 
 
 /**ORIGINALLY FROM MASTER CSS**/
-body{
-  background-color: #FDFFED;
-}
-
 
 
 .resTitle{
