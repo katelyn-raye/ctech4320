@@ -1,20 +1,8 @@
-/* GLOBAL COLORS
-MAIN GREEN: #0197A2;
-LIGHT GREEN: #3FB6BF
-HOVER LIGHT GREEN (ON MAIN GREEN): #CAEBED;
 
-MUSTARD YELLOW: #FF9D1E;
-
-LIGHT GRAY: #EEEEEE;
-
-ON WHITE BACKGROUND
-TYPE GRAY: #444444;
-GRAY HOVER: #797979;
-*/
 
 
 html {
-  font-family: "Muli", "Arial", sans-serif;
+  font-family: 'Playfair Display','times new roman' serif;
   color: #444444;
   -webkit-font-smoothing: antialiased;
 }
