@@ -138,17 +138,24 @@ body{
   display: block;
   overflow: hidden;
   background: url('../images/Spaghetti.svg') no-repeat 0 0/contain transparent;
-  width: 250px;
+  width: 50px;
   height: 40px;
   text-indent: -99999px;}
 
   .navbar .navbar-shop {
     display: block;
     overflow: hidden;
-    background: url('../images/shop.svg') no-repeat 0 0/contain transparent;
-    width: 250px;
+    background: url('../images/shop.png') no-repeat 0 0/contain transparent;
+    width: 50px;
     height: 40px;
-    text-indent: -99999px;}
+    text-indent: -99999px;
+    border: none;
+  }
+
+  .nav-top h3{
+    margin:0;
+  }
+
 
 @media only screen and (min-width: 769px){
   .responsive-nav{
