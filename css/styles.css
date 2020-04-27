@@ -25,6 +25,20 @@ body{
   padding: 0;
 }
 
+.navbar{
+  margin:0;
+  padding: 0;
+}
+
+.nav{
+  padding:0;
+}
+
+.nav-top p{
+  color: white;
+  font-size: 1.5em;
+}
+
       .navigation{
         color: white;
         padding: 0;
@@ -190,7 +204,7 @@ body{
     -webkit-align-items: space-between;
     align-content: space-between;
 
-  
+
   }
 
   a.navbar-brand{
