@@ -17,7 +17,7 @@ footer {
   display: -webkit-flex;
   flex-flow: column wrap;
   -webkit-flex-flow: column wrap;
-  background-color: #4d5057;
+  background-color: #DB4C40;
 
 }
 
@@ -27,7 +27,7 @@ footer {
 } }
 
 .footerbar .footer-info {
-	background-color: #4d5057;
+	background-color: #DB4C40;
 	width: 100%;
   	color: white;
 }
