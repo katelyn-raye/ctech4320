@@ -448,14 +448,14 @@ input[type=text]{
   display: -webkit-flex;
   flex-flow: row nowrap;
   -webkit-flex-flow: row nowrap;
-  justify-content: space-between;
-  -webkit-justify-content: space-between;
-  align-items: flex-start;
-  -webkit-align-items: flex-start;
-  align-content: space-between;
-  -webkit-align-content: space-between;
-  width: 80%;
-  margin: 10% 0 5% 0;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  align-content: center;
+  -webkit-align-content: center;
+  width: 100%;
+  margin: 10% 0 2% 0;
 }
 
 .addCart{
@@ -463,7 +463,7 @@ input[type=text]{
   color: white;
   border: 1px solid #CF4336;
   border-radius: 4px;
-  padding:3px;
+  padding:0.5em;
 }
 
 .addCart:hover{
