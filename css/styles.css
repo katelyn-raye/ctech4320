@@ -388,6 +388,20 @@ input[type=text]{
   padding: 0 5%;
 }
 
+.lastrow{
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row nowrap;
+  -webkit-flex-flow: row nowrap;
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+  align-items: flex-start;
+  -webkit-align-items: flex-start;
+  align-content: space-around;
+  -webkit-align-content: space-around;
+
+}
+
 .item img{
   border-radius: 15px;
   margin-top: 3%;
