@@ -8,311 +8,267 @@ setcookie("itemSelect", $item, time() + 14400);
 $_COOKIE['itemSelect'] = $item;
 
 $food = array(
-
-$food[0] = array(
-
+$food[0] = array()
                $food[0]['category'] = 'Appetizer';
                $food[0]['name'] = 'Garlic Bread';
                $food[0]['imgURL'] = 'app-menu.png';  // if all your images are in the same folder, you only need the file name here
                $food[0]['price'] = '2.99';
-             )
-$food[1] = array(
+$food[1] = array()
                $food[1]['category'] = 'Appetizer';
                $food[1]['name'] = 'Garlic Bread w/ Cheese';
                $food[1]['imgURL'] = 'app-menu.png';  // if all your images are in the same folder, you only need the file name here
                $food[1]['price'] = '4.50';
-)
-$food[2] = array(
+
+$food[2] = array()
         $food[2]['category'] = 'Appetizer';
         $food[2]['name'] = 'Fried Cheese';
         $food[2]['imgURL'] = 'app-menu.png';  // if all your images are in the same folder, you only need the file name here
         $food[2]['price'] = '6.99';
-)
-$food[3] = array(
+
+$food[3] = array()
                 $food[3]['category'] = 'Appetizer';
                 $food[3]['name'] = 'Fried Calamari';
                 $food[3]['imgURL'] = 'app-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[3]['price'] = '9.99';
-)
-$food[4] = array(
+
+$food[4] = array()
                 $food[4]['category'] = 'Salads';
                 $food[4]['name'] = 'Tossed Salad';
                 $food[4]['imgURL'] = 'salad-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[4]['price'] = '3.50';
-)
-$food[5] = array(
+
+$food[5] = array()
                 $food[5]['category'] = 'Salads';
                 $food[5]['name'] = 'Bella Salad';
                 $food[5]['imgURL'] = 'salad-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[5]['price'] = '5.99';
-)
-$food[6] = array(
+
+$food[6] = array()
                 $food[6]['category'] = 'Salads';
                 $food[6]['name'] = 'Ceaser Salad';
                 $food[6]['imgURL'] = 'salad-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[6]['price'] = '7.99';
-                )
-$food[7] = array(
+$food[7] = array()
                 $food[7]['category'] = 'Salads';
                 $food[7]['name'] = 'Antipasto Salad';
                 $food[7]['imgURL'] = 'salad-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[7]['price'] = '9.99';
-                )
-$food[8] = array(
+$food[8] = array()
                 $food[8]['category'] = 'Side Orders';
                 $food[8]['name'] = 'Meat Sauce';
                 $food[8]['imgURL'] = 'sides-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[8]['price'] = '4.00';
-                )
-$food[9] = array(
+$food[9] = array()
                 $food[9]['category'] = 'Side Orders';
                 $food[9]['name'] = 'Meatballs';
                 $food[9]['imgURL'] = 'sides-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[9]['price'] = '4.00';
-                )
-$food[10] = array(
+$food[10] = array()
                 $food[10]['category'] = 'Side Orders';
                 $food[10]['name'] = 'Italian Sausage';
                 $food[10]['imgURL'] = 'sides-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[10]['price'] = '4.00';
-)
-$food[11] = array(
+
+$food[11] = array()
                 $food[11]['category'] = 'Side Orders';
                 $food[11]['name'] = 'French Fries';
                 $food[11]['imgURL'] = 'sides-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[11]['price'] = '4.00';
-                )
-$food[12] = array(
+$food[12] = array()
                 $food[12]['category'] = 'Side Orders';
                 $food[12]['name'] = 'Alfredo Sauce';
                 $food[12]['imgURL'] = 'sides-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[12]['price'] = '5.00';
-                )
-$food[13] = array(
+$food[13] = array()
                 $food[13]['category'] = 'Side Orders';
                 $food[13]['name'] = 'Fri Diavlo Sauce';
                 $food[13]['imgURL'] = 'sides-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[13]['price'] = '5.00';
-                )
-$food[14] = array(
+$food[14] = array()
                 $food[14]['category'] = 'Side Orders';
                 $food[14]['name'] = 'Side of Mixed Vegetables';
                 $food[14]['imgURL'] = 'sides-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[14]['price'] = '5.99';
-                )
-$food[15] = array(
+$food[15] = array()
                 $food[15]['category'] = 'Side Orders';
                 $food[15]['name'] = 'Side Dressings';
                 $food[15]['imgURL'] = 'sides-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[15]['price'] = '1.00';
-                )
-$food[16] = array(
+$food[16] = array()
                 $food[16]['category'] = 'Side Orders';
                 $food[16]['name'] = 'Mozzarella';
                 $food[16]['imgURL'] = 'sides-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[16]['price'] = '1.50';
-                )
-$food[17] = array(
+$food[17] = array()
                 $food[17]['category'] = 'Side Orders';
                 $food[17]['name'] = 'Homemade Rolls';
                 $food[17]['imgURL'] = 'sides-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[17]['price'] = '2.50';
-                )
-$food[18] = array(
+$food[18] = array()
                 $food[18]['category'] = 'Child Menu';
                 $food[18]['name'] = 'Spaghetti and Meatballs';
                 $food[18]['imgURL'] = 'child-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[18]['price'] = '5.99';
-                )
-$food[19] = array(
+$food[19] = array()
                 $food[19]['category'] = 'Child Menu';
                 $food[19]['name'] = 'Baked Ziti';
                 $food[19]['imgURL'] = 'child-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[19]['price'] = '5.99';
-                )
-$food[20] = array(
+$food[20] = array()
                 $food[20]['category'] = 'Child Menu';
                 $food[20]['name'] = 'Chicken Strips';
                 $food[20]['imgURL'] = 'child-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[20]['price'] = '5.99';
-                )
-$food[21] = array(
+$food[21] = array()
                 $food[21]['category'] = 'Child Menu';
                 $food[21]['name'] = 'Small Pizza (Dine in Only)';
                 $food[21]['imgURL'] = 'child-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[21]['price'] = '7.99';
-                )
-$food[22] = array(
+$food[22] = array()
                 $food[22]['category'] = 'Sandwiches';
                 $food[22]['name'] = 'Ham and Cheese';
                 $food[22]['imgURL'] = 'sandwhich-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[22]['price'] = '8.99';
-                )
-$food[23] = array(
+$food[23] = array()
                 $food[23]['category'] = 'Sandwiches';
                 $food[23]['name'] = 'Super Sub';
                 $food[23]['imgURL'] = 'sandwhich-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[23]['price'] = '8.99';
-                )
-$food[24] = array(
+$food[24] = array()
                 $food[24]['category'] = 'Hot Subs';
                 $food[24]['name'] = 'Meatball Parmigiana';
                 $food[24]['imgURL'] = 'sandwhich-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[24]['price'] = '8.99';
-                )
-$food[25] = array(
+$food[25] = array()
                 $food[25]['category'] = 'Hot Subs';
                 $food[25]['name'] = 'Sausage Parmigiani';
                 $food[25]['imgURL'] = 'sandwhich-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[25]['price'] = '8.99';
-                )
-$food[26] = array(
+$food[26] = array()
                 $food[26]['category'] = 'Hot Subs';
                 $food[26]['name'] = 'Chicken Parmigiani';
                 $food[26]['imgURL'] = 'sandwhich-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[26]['price'] = '8.99';
-                )
-$food[27] = array(
+$food[27] = array()
                 $food[27]['category'] = 'Hot Subs';
                 $food[27]['name'] = 'Philly Cheese Steak';
                 $food[27]['imgURL'] = 'sandwhich-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[27]['price'] = '8.99';
-)
-$food[28] = array(
+
+$food[28] = array()
 
                 $food[28]['category'] = 'Pasta Plus';
                 $food[28]['name'] = 'Marinara Sauce';
                 $food[28]['imgURL'] = 'pasta-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[28]['price'] = '8.50';
-                )
-$food[29] = array(
+$food[29] = array()
                 $food[29]['category'] = 'Pasta Plus';
                 $food[29]['name'] = 'Meat Sauce';
                $food[29]['imgURL'] = 'pasta-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[29]['price'] = '9.50';
-                )
-$food[30] = array(
+$food[30] = array()
                 $food[30]['category'] = 'Pasta Plus';
                 $food[30]['name'] = 'Meatballs or Sausage';
                 $food[30]['imgURL'] = 'pasta-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[30]['price'] = '9.50';
-                )
-$food[31] = array(
+$food[31] = array()
 
                 $food[31]['category'] = 'Pasta Plus';
                 $food[31]['name'] = 'Mushrooms or Black Olives';
                 $food[31]['imgURL'] = 'pasta-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[31]['price'] = '9.50';
-                )
-$food[32] = array(
+$food[32] = array()
                 $food[32]['category'] = 'Baked Pasta';
                 $food[32]['name'] = 'Lasagna';
                 $food[32]['imgURL'] = 'pasta-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[32]['price'] = '9.50';
-                )
- $food[33] = array(
+ $food[33] = array()
                 $food[33]['category'] = 'Baked Pasta';
                 $food[33]['name'] = 'Cannelloni';
                 $food[33]['imgURL'] = 'pasta-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[33]['price'] = '9.50';
-                )
-$food[34] = array(
+$food[34] = array()
                 $food[34]['category'] = 'Baked Pasta';
                 $food[34]['name'] = 'Manicotti';
                 $food[34]['imgURL'] = 'pasta-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[34]['price'] = '9.50';
-                )
-$food[35] = array(
+$food[35] = array()
                 $food[35]['category'] = 'Baked Pasta';
                 $food[35]['name'] = 'Stuffed Shells';
                 $food[35]['imgURL'] = 'pasta-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[35]['price'] = '9.50';
-                )
-$food[36] = array(
+$food[36] = array()
                 $food[36]['category'] = 'Baked Pasta';
                 $food[36]['name'] = 'Cheese Ravioli';
                 $food[36]['imgURL'] = 'pasta-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[36]['price'] = '9.50';
-                )
-$food[37] = array(
+$food[37] = array()
                 $food[37]['category'] = 'Baked Pasta';
                 $food[37]['name'] = 'Baked Ziti';
                 $food[37]['imgURL'] = 'pasta-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[37]['price'] = '9.50';
-                )
-$food[38] = array(
+$food[38] = array()
                 $food[38]['category'] = 'Baked Pasta';
                 $food[38]['name'] = 'Baked Torellini';
                 $food[38]['imgURL'] = 'pasta-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[38]['price'] = '9.50';
-                )
-$food[39] = array(
+$food[39] = array()
                 $food[39]['category'] = 'Baked Pasta';
                 $food[39]['name'] = 'Eggplant Parmigiana';
                 $food[39]['imgURL'] = 'pasta-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[39]['price'] = '9.50';
-                )
-$food[40] = array(
+$food[40] = array()
                 $food[40]['category'] = 'Baked Pasta';
                 $food[40]['name'] = 'Eggplant Rollatini';
                 $food[40]['imgURL'] = 'pasta-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[40]['price'] = '9.50';
-                )
-$food[41] = array(
+$food[41] = array()
                 $food[41]['category'] = 'Baked Pasta';
                 $food[41]['name'] = 'Pasta Combo';
                 $food[41]['imgURL'] = 'pasta-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[41]['price'] = '9.50';
-                )
-$food[42] = array(
+$food[42] = array()
                 $food[42]['category'] = 'Pasta Favorites';
                 $food[42]['name'] = 'Fettuccine Molto Mio';
                 $food[42]['description'] = 'Sun-dried tomatoes, onions, artichoke hearts & mushrooms in a creamy pink sauce';
                 $food[42]['imgURL'] = 'pasta-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[42]['price'] = '10.50';
-                )
-$food[43] = array(
+$food[43] = array()
                 $food[43]['category'] = 'Pasta Favorites';
                 $food[43]['name'] = 'Fettuccine Alfredo';
                 $food[43]['description'] = 'Sauteed in a creamy cheese sauce';
                 $food[43]['imgURL'] = 'pasta-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[43]['price'] = '10.50';
-                )
-$food[44] = array(
+$food[44] = array()
                 $food[44]['category'] = 'Pasta Favorites';
                 $food[44]['name'] = 'Fettuccine Leonardo';
                 $food[44]['description'] = 'Bacon and red onions in a creamy sauce';
                 $food[44]['imgURL'] = 'pasta-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[44]['price'] = '10.50';
-                )
-$food[45] = array(
+$food[45] = array()
                 $food[45]['category'] = 'Pasta Favorites';
                 $food[45]['name'] = 'Ziti Vodka';
                 $food[45]['description'] = 'Sauteed with prosciutto & red onions in a vodka-pink sauce';
                 $food[45]['imgURL'] = 'pasta-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[45]['price'] = '10.50';
-                )
-$food[46] = array(
+$food[46] = array()
                 $food[46]['category'] = 'Pasta Favorites';
                 $food[46]['name'] = 'Tortellini Michelangelo';
                 $food[46]['description'] = 'Stuffed macaroni sauteed with onion, bacon, diced tomatoes & artichoke hearts in a pink sauce';
                 $food[46]['imgURL'] = 'pasta-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[46]['price'] = '10.50';
-                )
-$food[47] = array(
+$food[47] = array()
                 $food[47]['category'] = 'Pasta Favorites';
                 $food[47]['name'] = 'Tortellini Panne';
                 $food[47]['description'] = 'Sauteed in a cream cheese sauce';
                 $food[47]['imgURL'] = 'pasta-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[47]['price'] = '10.50';
-                )
-$food[48] = array(
+$food[48] = array()
                 $food[48]['category'] = 'Pasta Favorites';
                 $food[48]['name'] = 'Beef Ravioli';
                 $food[48]['description'] = '(with your choice of sauce)';
                 $food[48]['imgURL'] = 'pasta-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[48]['price'] = '10.50';
-                )
 $food[49] = array()
                 $food[49]['category'] = 'Pasta Favorites';
                 $food[49]['name'] = 'Spinach Ravioli';
