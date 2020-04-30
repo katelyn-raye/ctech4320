@@ -9,10 +9,10 @@ $_COOKIE['itemSelect'] = $item;
 
 $food = array();
 $food[0] = array(){
-               $food[0]['category'] = 'Appetizer';
-               $food[0]['name'] = 'Garlic Bread';
-               $food[0]['imgURL'] = 'app-menu.png';  // if all your images are in the same folder, you only need the file name here
-               $food[0]['price'] = '2.99';
+               $food['category'] = 'Appetizer';
+               $food['name'] = 'Garlic Bread';
+               $food['imgURL'] = 'app-menu.png';  // if all your images are in the same folder, you only need the file name here
+               $food['price'] = '2.99';
              };
 $food[1] = array();
                $food[1]['category'] = 'Appetizer';
