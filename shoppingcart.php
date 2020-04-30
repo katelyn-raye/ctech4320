@@ -1,3 +1,6 @@
+<?php
+	include('menupost.php');
+?>
 <!doctype html>
 
 <html lang="en">
@@ -51,7 +54,7 @@
 
     <!-- NAVIGATION End -->
 
-  
+
       <div class ="favorites">
         <h2>Our Favorites</h2>
         <div class="favorites-pics">
@@ -71,6 +74,9 @@
           The best calzones of your life. </h5>
         </div>
         </div>
+        <?php
+        echo $_COOKIE['itemSelect'];
+        ?>
       </div>
     </div>
     </div>
