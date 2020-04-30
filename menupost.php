@@ -7,7 +7,7 @@ setcookie("itemSelect", $item, time() + 14400);
 // Cookies will only be available beginning next page load.  (So $_COOKIE['user'], which we just set up in the line above, is not avaible "now".) To use this cookie item "now" (this page load), we need to also assign the same value to the same $_COOKIE array item as below.
 $_COOKIE['itemSelect'] = $item;
 
-$food = array();
+$food = array(
 
 $food[0] = array()
 
@@ -510,7 +510,7 @@ $food[89] = array()
               $food[89]['name'] = 'Full Bar';
               $food[89]['description'] = 'Wine, Domestic Beer, Imported Beer, & Mixed Drinks';
               $food[89]['imgURL'] = 'drink-menu.png';
-
+);
 
 
 
