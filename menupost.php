@@ -400,7 +400,7 @@ $food[69] = array()
                 $food[69]['imgURL'] = 'FriedCheese.jpg';  // if all your images are in the same folder, you only need the file name here
                 $food[69]['price'] = '13.50';
 $food[70] = array()
-                $food[70]['category'] = 'Chicken Entrees';
+                $food[70]['category'] = 'Seafood Entrees';
                 $food[70]['name'] = 'Lobster Ravioli';
                 $food[70]['description'] = 'Four raviolis stuffed with lobster in a pink sauce';
                 $food[70]['imgURL'] = 'FriedCheese.jpg';  // if all your images are in the same folder, you only need the file name here
@@ -510,4 +510,327 @@ $food[89] = array()
               $food[89]['name'] = 'Full Bar';
               $food[89]['description'] = 'Wine, Domestic Beer, Imported Beer, & Mixed Drinks';
               $food[89]['imgURL'] = 'FriedCheese.jpg';
+
+
+
+
+$appetizerMenu = "";
+  foreach ($food as $appetizerid =>$item){
+    if ($item['category'] == 'Appetizer') {
+      $appetizerMenu = $appetizerMenu . "<div class='item'>
+        <img class='itemPic'src='images/{$item['imgURL']}'>
+        <h4 class='menu_title'>{$item['name']}</h4>
+        <p class='cost'>{$item['price']}</p>
+        <p class='description'>{$item['description']}</p>
+        <div class='menuSubmitContainer'>
+          <form action='shoppingcart.php' method='post'>
+            <input type='hidden' name='id' value=' {$appetizerid}'>
+            <input type='text' name='quantity' value='1'>
+            <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
+          </form>
+        </div>
+      </div>";
+    }
+  }
+
+  $saladsMenu = "";
+    foreach ($food as $saladsid =>$item){
+      if ($item['category'] == 'Appetizer') {
+        $saladsMenu = $saladsMenu . "<div class='item'>
+          <img class='itemPic'src='images/{$item['imgURL']}'>
+          <h4 class='menu_title'>{$item['name']}</h4>
+          <p class='cost'>{$item['price']}</p>
+          <p class='description'>{$item['description']}</p>
+          <div class='menuSubmitContainer'>
+            <form action='shoppingcart.php' method='post'>
+              <input type='hidden' name='id' value=' {$saladsid}'>
+              <input type='text' name='quantity' value='1'>
+              <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
+            </form>
+          </div>
+        </div>";
+      }
+    }
+    $sidesMenu = "";
+      foreach ($food as $sidesid =>$item){
+        if ($item['category'] == 'Appetizer') {
+          $sidesMenu = $sidesMenu . "<div class='item'>
+            <img class='itemPic'src='images/{$item['imgURL']}'>
+            <h4 class='menu_title'>{$item['name']}</h4>
+            <p class='cost'>{$item['price']}</p>
+            <p class='description'>{$item['description']}</p>
+            <div class='menuSubmitContainer'>
+              <form action='shoppingcart.php' method='post'>
+                <input type='hidden' name='id' value=' {$sizesid}'>
+                <input type='text' name='quantity' value='1'>
+                <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
+              </form>
+            </div>
+          </div>";
+        }
+      }
+
+      $kidsmenuMenu = "";
+        foreach ($food as $kidsmenuid =>$item){
+          if ($item['category'] == 'Appetizer') {
+            $kidsmenuMenu = $kidsmenuMenu . "<div class='item'>
+              <img class='itemPic'src='images/{$item['imgURL']}'>
+              <h4 class='menu_title'>{$item['name']}</h4>
+              <p class='cost'>{$item['price']}</p>
+              <p class='description'>{$item['description']}</p>
+              <div class='menuSubmitContainer'>
+                <form action='shoppingcart.php' method='post'>
+                  <input type='hidden' name='id' value=' {$kidsmenuid}'>
+                  <input type='text' name='quantity' value='1'>
+                  <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
+                </form>
+              </div>
+            </div>";
+          }
+        }
+
+$sandwichesMenu = "";
+  foreach ($food as $sandwichesid =>$item){
+    if ($item['category'] == 'Appetizer') {
+      $sandwichesMenu = $sandwichesMenu . "<div class='item'>
+        <img class='itemPic'src='images/{$item['imgURL']}'>
+        <h4 class='menu_title'>{$item['name']}</h4>
+        <p class='cost'>{$item['price']}</p>
+        <p class='description'>{$item['description']}</p>
+        <div class='menuSubmitContainer'>
+          <form action='shoppingcart.php' method='post'>
+            <input type='hidden' name='id' value=' {$sandwichesid}'>
+            <input type='text' name='quantity' value='1'>
+            <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
+          </form>
+        </div>
+      </div>";
+    }
+  }
+
+  $subsMenu = "";
+    foreach ($food as $subsid =>$item){
+      if ($item['category'] == 'Appetizer') {
+        $subsMenu = $subsMenu . "<div class='item'>
+          <img class='itemPic'src='images/{$item['imgURL']}'>
+          <h4 class='menu_title'>{$item['name']}</h4>
+          <p class='cost'>{$item['price']}</p>
+          <p class='description'>{$item['description']}</p>
+          <div class='menuSubmitContainer'>
+            <form action='shoppingcart.php' method='post'>
+              <input type='hidden' name='id' value=' {$subsid}'>
+              <input type='text' name='quantity' value='1'>
+              <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
+            </form>
+          </div>
+        </div>";
+      }
+    }
+    $pastaplusMenu = "";
+      foreach ($food as $pastaplusid =>$item){
+        if ($item['category'] == 'Appetizer') {
+          $pastaplusMenu = $pastaplusMenu . "<div class='item'>
+            <img class='itemPic'src='images/{$item['imgURL']}'>
+            <h4 class='menu_title'>{$item['name']}</h4>
+            <p class='cost'>{$item['price']}</p>
+            <p class='description'>{$item['description']}</p>
+            <div class='menuSubmitContainer'>
+              <form action='shoppingcart.php' method='post'>
+                <input type='hidden' name='id' value=' {$pastaplusid}'>
+                <input type='text' name='quantity' value='1'>
+                <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
+              </form>
+            </div>
+          </div>";
+        }
+      }
+
+      $bakedpastaMenu = "";
+        foreach ($food as $bakedpastaid =>$item){
+          if ($item['category'] == 'Appetizer') {
+            $bakedpastaMenu = $bakedpastaMenu . "<div class='item'>
+              <img class='itemPic'src='images/{$item['imgURL']}'>
+              <h4 class='menu_title'>{$item['name']}</h4>
+              <p class='cost'>{$item['price']}</p>
+              <p class='description'>{$item['description']}</p>
+              <div class='menuSubmitContainer'>
+                <form action='shoppingcart.php' method='post'>
+                  <input type='hidden' name='id' value=' {$bakedpastaid}'>
+                  <input type='text' name='quantity' value='1'>
+                  <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
+                </form>
+              </div>
+            </div>";
+          }
+        }
+
+$chickenentreesMenu = "";
+  foreach ($food as $chickenentreesid =>$item){
+    if ($item['category'] == 'Appetizer') {
+      $chickenentreesMenu = $chickenentreesMenu . "<div class='item'>
+        <img class='itemPic'src='images/{$item['imgURL']}'>
+        <h4 class='menu_title'>{$item['name']}</h4>
+        <p class='cost'>{$item['price']}</p>
+        <p class='description'>{$item['description']}</p>
+        <div class='menuSubmitContainer'>
+          <form action='shoppingcart.php' method='post'>
+            <input type='hidden' name='id' value=' {$chickenentreesid}'>
+            <input type='text' name='quantity' value='1'>
+            <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
+          </form>
+        </div>
+      </div>";
+    }
+  }
+
+  $seafoodentreesMenu = "";
+    foreach ($food as $seafoodentreesid =>$item){
+      if ($item['category'] == 'Appetizer') {
+        $seafoodentreesMenu = $seafoodentreesMenu . "<div class='item'>
+          <img class='itemPic'src='images/{$item['imgURL']}'>
+          <h4 class='menu_title'>{$item['name']}</h4>
+          <p class='cost'>{$item['price']}</p>
+          <p class='description'>{$item['description']}</p>
+          <div class='menuSubmitContainer'>
+            <form action='shoppingcart.php' method='post'>
+              <input type='hidden' name='id' value=' {$seafoodentreesid}'>
+              <input type='text' name='quantity' value='1'>
+              <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
+            </form>
+          </div>
+        </div>";
+      }
+    }
+    $neapolitanMenu = "";
+      foreach ($food as $neapolitanid =>$item){
+        if ($item['category'] == 'Appetizer') {
+          $sidesMenu = $sidesMenu . "<div class='item'>
+            <img class='itemPic'src='images/{$item['imgURL']}'>
+            <h4 class='menu_title'>{$item['name']}</h4>
+            <p class='cost'>{$item['price']}</p>
+            <p class='description'>{$item['description']}</p>
+            <div class='menuSubmitContainer'>
+              <form action='shoppingcart.php' method='post'>
+                <input type='hidden' name='id' value=' {$neapolitanid}'>
+                <input type='text' name='quantity' value='1'>
+                <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
+              </form>
+            </div>
+          </div>";
+        }
+      }
+
+      $pizzatoppingsMenu = "";
+        foreach ($food as $pizzatoppingsid =>$item){
+          if ($item['category'] == 'Appetizer') {
+            $pizzatoppingsMenu = $vpizzatoppingsMenu . "<div class='item'>
+              <img class='itemPic'src='images/{$item['imgURL']}'>
+              <h4 class='menu_title'>{$item['name']}</h4>
+              <p class='cost'>{$item['price']}</p>
+              <p class='description'>{$item['description']}</p>
+              <div class='menuSubmitContainer'>
+                <form action='shoppingcart.php' method='post'>
+                  <input type='hidden' name='id' value=' {$pizzatoppingsid}'>
+                  <input type='text' name='quantity' value='1'>
+                  <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
+                </form>
+              </div>
+            </div>";
+          }
+        }
+
+$specialtytoppingsMenu = "";
+  foreach ($food as $specialtytoppingsid =>$item){
+    if ($item['category'] == 'Appetizer') {
+      $specialtytoppingsMenu = $specialtytoppingsMenu . "<div class='item'>
+        <img class='itemPic'src='images/{$item['imgURL']}'>
+        <h4 class='menu_title'>{$item['name']}</h4>
+        <p class='cost'>{$item['price']}</p>
+        <p class='description'>{$item['description']}</p>
+        <div class='menuSubmitContainer'>
+          <form action='shoppingcart.php' method='post'>
+            <input type='hidden' name='id' value=' {$specialtytoppingsid}'>
+            <input type='text' name='quantity' value='1'>
+            <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
+          </form>
+        </div>
+      </div>";
+    }
+  }
+
+  $specialtypizzaMenu = "";
+    foreach ($food as $specialtypizzaid =>$item){
+      if ($item['category'] == 'Appetizer') {
+        $specialtypizzaMenu = $specialtypizzaMenu . "<div class='item'>
+          <img class='itemPic'src='images/{$item['imgURL']}'>
+          <h4 class='menu_title'>{$item['name']}</h4>
+          <p class='cost'>{$item['price']}</p>
+          <p class='description'>{$item['description']}</p>
+          <div class='menuSubmitContainer'>
+            <form action='shoppingcart.php' method='post'>
+              <input type='hidden' name='id' value=' {$specialtypizzaid}'>
+              <input type='text' name='quantity' value='1'>
+              <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
+            </form>
+          </div>
+        </div>";
+      }
+    }
+    $dessertsMenu = "";
+      foreach ($food as $dessertsid =>$item){
+        if ($item['category'] == 'Appetizer') {
+          $dessertsMenu = $dessertsMenu . "<div class='item'>
+            <img class='itemPic'src='images/{$item['imgURL']}'>
+            <h4 class='menu_title'>{$item['name']}</h4>
+            <p class='cost'>{$item['price']}</p>
+            <p class='description'>{$item['description']}</p>
+            <div class='menuSubmitContainer'>
+              <form action='shoppingcart.php' method='post'>
+                <input type='hidden' name='id' value=' {$dessertsid}'>
+                <input type='text' name='quantity' value='1'>
+                <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
+              </form>
+            </div>
+          </div>";
+        }
+      }
+
+      $drinksMenu = "";
+        foreach ($food as $drinksid =>$item){
+          if ($item['category'] == 'Appetizer') {
+            $drinksMenu = $drinksMenu . "<div class='item'>
+              <img class='itemPic'src='images/{$item['imgURL']}'>
+              <h4 class='menu_title'>{$item['name']}</h4>
+              <p class='cost'>{$item['price']}</p>
+              <p class='description'>{$item['description']}</p>
+              <div class='menuSubmitContainer'>
+                <form action='shoppingcart.php' method='post'>
+                  <input type='hidden' name='id' value=' {$drinksid}'>
+                  <input type='text' name='quantity' value='1'>
+                  <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
+                </form>
+              </div>
+            </div>";
+          }
+        }
+
+        $barMenu = "";
+          foreach ($food as $barid =>$item){
+            if ($item['category'] == 'Appetizer') {
+              $barMenu = $barMenu . "<div class='item'>
+                <img class='itemPic'src='images/{$item['imgURL']}'>
+                <h4 class='menu_title'>{$item['name']}</h4>
+                <p class='cost'>{$item['price']}</p>
+                <p class='description'>{$item['description']}</p>
+                <div class='menuSubmitContainer'>
+                  <form action='shoppingcart.php' method='post'>
+                    <input type='hidden' name='id' value=' {$barid}'>
+                    <input type='text' name='quantity' value='1'>
+                    <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
+                  </form>
+                </div>
+              </div>";
+            }
+          }
+
 ?>
