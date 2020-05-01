@@ -381,125 +381,123 @@ $food[68] = array();
                 $food[68]['description'] = 'Sauteed lemon & butter in a white wine sauce with capers';
                 $food[68]['imgURL'] = 'seafood-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[68]['price'] = '14.50';
-$food[69] = array()
+$food[69] = array();
                 $food[69]['category'] = 'Seafood Entrees';
                 $food[69]['name'] = 'Linguini & Clams';
                 $food[69]['description'] = 'Over a white or red clam sauce';
                 $food[69]['imgURL'] = 'seafood-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[69]['price'] = '13.50';
-$food[70] = array()
+$food[70] = array();
                 $food[70]['category'] = 'Seafood Entrees';
                 $food[70]['name'] = 'Lobster Ravioli';
                 $food[70]['description'] = 'Four raviolis stuffed with lobster in a pink sauce';
                 $food[70]['imgURL'] = 'seafood-menu.png';  // if all your images are in the same folder, you only need the file name here
                 $food[70]['price'] = '13.50';
-$food[71] = array()
+$food[71] = array();
               $food[71]['category'] = 'Neapolitan Style Pizza';
               $food[71]['name'] = 'Medium 14 inch pizza w/ cheese';
               $food[71]['imgURL'] = 'pizza-menu.png';  // if all your images are in the same folder, you only need the file name here
               $food[71]['price'] = '9.99';
-$food[72] = array()
+$food[72] = array();
               $food[72]['category'] = 'Neapolitan Style Pizza';
               $food[72]['name'] = 'Large 16 inch pizza w/ cheese';
               $food[72]['imgURL'] = 'pizza-menu.png';  // if all your images are in the same folder, you only need the file name here
               $food[72]['price'] = '10.99';
-$food[73] = array()
+$food[73] = array();
               $food[73]['category'] = 'Pizza Toppings';
               $food[73]['name'] = 'Pizza Toppings';
               $food[73]['description'] = 'Green Peppers, Beef Sausage, Canadian Bacon, Pepperoni, Cheese, Black Olives, Onions, Mushrooms, Anchovies, Jalapenos';
               $food[73]['imgURL'] = 'pizza-menu.png';  // if all your images are in the same folder, you only need the file name here
               $food[73]['price'] = '1.50';
-$food[74] = array()
+$food[74] = array();
               $food[74]['category'] = 'Specialty Toppings';
               $food[74]['name'] = '$1 Toppings';
               $food[74]['description'] = 'Fresh Garlic or Fresh Basil';
               $food[74]['imgURL'] = 'pizza-menu.png';  // if all your images are in the same folder, you only need the file name here
               $food[74]['price'] = '1.00';
-$food[75] = array()
+$food[75] = array();
 
               $food[75]['category'] = 'Specialty Toppings';
               $food[75]['name'] = '$2 Toppings';
               $food[75]['description'] = 'Fresh Tomoatoes, Spinach, Extra Pizza Sauce';
               $food[75]['imgURL'] = 'pizza-menu.png';  // if all your images are in the same folder, you only need the file name here
               $food[75]['price'] = '2.00';
-$food[76] = array()
+$food[76] = array();
               $food[76]['category'] = 'Specialty Toppings';
               $food[76]['name'] = '$3 Toppings';
               $food[76]['description'] = 'Riccota Cheese';
               $food[76]['imgURL'] = 'pizza-menu.png';  // if all your images are in the same folder, you only need the file name here
               $food[76]['price'] = '3.00';
-$food[77] = array()
+$food[77] = array();
               $food[77]['category'] = 'Specialty Toppings';
               $food[77]['name'] = '$4 Toppings';
               $food[77]['description'] = 'Grilled Chicken, Artichoke Hearts, Alfredo Sauce, Italian Sausage, Meatballs';
               $food[77]['imgURL'] = 'pizza-menu.png';  // if all your images are in the same folder, you only need the file name here
               $food[77]['price'] = '4.00';
-$food[78] = array()
+$food[78] = array();
 
               $food[78]['category'] = 'Specialty Pizza';
               $food[78]['name'] = 'Special Medium Pizza';
               $food[78]['imgURL'] = 'pizza-menu.png';
               $food[78]['price'] = '13.99';
-$food[79] = array()
+$food[79] = array();
               $food[79]['category'] = 'Specialty Pizza';
               $food[79]['name'] = 'Special Large Pizza';
               $food[79]['imgURL'] = 'pizza-menu.png';
               $food[79]['price'] = '15.99';
-$food[80] = array()
+$food[80] = array();
               $food[80]['category'] = 'Specialty Pizza';
               $food[80]['name'] = 'Sicilian Deep Dish - Cheese';
               $food[80]['imgURL'] = 'pizza-menu.png';
               $food[80]['price'] = '14.99';
-$food[81] = array()
+$food[81] = array();
 
               $food[81]['category'] = 'Specialty Pizza';
               $food[81]['name'] = 'Special Deep Dish';
               $food[81]['imgURL'] = 'pizza-menu.png';
               $food[81]['price'] = '19.99';
-$food[82] = array()
+$food[82] = array();
               $food[82]['category'] = 'Specialty Pizza';
               $food[82]['name'] = 'Stromboli with All Pizza Ingredients';
               $food[82]['imgURL'] = 'pizza-menu.png';
               $food[82]['price'] = '8.50';
-$food[83] = array()
+$food[83] = array();
               $food[83]['category'] = 'Specialty Pizza';
               $food[83]['name'] = 'Calzone w/ Sausage, Ricotta, & Mozzarella';
               $food[83]['imgURL'] = 'pizza-menu.png';
               $food[83]['price'] = '8.50';
-$food[84] = array()
+$food[84] = array();
               $food[84]['category'] = 'Desserts';
               $food[84]['name'] = 'Plain Cheesecake';
               $food[84]['imgURL'] = 'dessert-menu.png';
               $food[84]['price'] = '5.99';
-$food[85] = array()
+$food[85] = array();
               $food[85]['category'] = 'Desserts';
               $food[85]['name'] = 'Chocolate Cheesecake';
               $food[85]['imgURL'] = 'dessert-menu.png';
               $food[85]['price'] = '5.99';
-$food[86] = array()
+$food[86] = array();
               $food[86]['category'] = 'Desserts';
               $food[86]['name'] = 'Cannoli';
               $food[86]['imgURL'] = 'dessert-menu.png';
               $food[86]['price'] = '5.99';
-$food[87] = array()
+$food[87] = array();
 
               $food[87]['category'] = 'Desserts';
               $food[87]['name'] = 'Tiramisu';
               $food[87]['imgURL'] = 'dessert-menu.png';
               $food[87]['price'] = '5.99';
-$food[88] = array()
+$food[88] = array();
               $food[88]['category'] = 'Drinks';
               $food[88]['name'] = 'Beverages';
               $food[88]['description'] = 'Coke, Diet Coke, Sprite, Dr.Pepper, Lemonade, Fanta, Iced Tea, Domestic Coffee';
               $food[88]['imgURL'] = 'drink-menu.png';
               $food[88]['price'] = '2.79';
-$food[89] = array()
+$food[89] = array();
               $food[89]['category'] = 'Full Bar';
               $food[89]['name'] = 'Full Bar';
               $food[89]['description'] = 'Wine, Domestic Beer, Imported Beer, & Mixed Drinks';
               $food[89]['imgURL'] = 'drink-menu.png';
-
-
 
 $appetizerMenu = "";
   foreach ($food as $appetizerid =>$item){
@@ -508,7 +506,6 @@ $appetizerMenu = "";
         <img class='itemPic'src='images/{$item['imgURL']}'>
         <h4 class='menu_title'>{$item['name']}</h4>
         <p class='cost'>{$item['price']}</p>
-        <p class='description'>{$item['description']}</p>
         <div class='menuSubmitContainer'>
           <form action='shoppingcart.php' method='post'>
             <input type='hidden' name='id' value=' {$appetizerid}'>
@@ -527,7 +524,6 @@ $appetizerMenu = "";
           <img class='itemPic'src='images/{$item['imgURL']}'>
           <h4 class='menu_title'>{$item['name']}</h4>
           <p class='cost'>{$item['price']}</p>
-          <p class='description'>{$item['description']}</p>
           <div class='menuSubmitContainer'>
             <form action='shoppingcart.php' method='post'>
               <input type='hidden' name='id' value=' {$saladsid}'>
@@ -545,7 +541,6 @@ $appetizerMenu = "";
             <img class='itemPic'src='images/{$item['imgURL']}'>
             <h4 class='menu_title'>{$item['name']}</h4>
             <p class='cost'>{$item['price']}</p>
-            <p class='description'>{$item['description']}</p>
             <div class='menuSubmitContainer'>
               <form action='shoppingcart.php' method='post'>
                 <input type='hidden' name='id' value=' {$sizesid}'>
@@ -564,7 +559,6 @@ $appetizerMenu = "";
               <img class='itemPic'src='images/{$item['imgURL']}'>
               <h4 class='menu_title'>{$item['name']}</h4>
               <p class='cost'>{$item['price']}</p>
-              <p class='description'>{$item['description']}</p>
               <div class='menuSubmitContainer'>
                 <form action='shoppingcart.php' method='post'>
                   <input type='hidden' name='id' value=' {$kidsmenuid}'>
@@ -583,7 +577,6 @@ $sandwichesMenu = "";
         <img class='itemPic'src='images/{$item['imgURL']}'>
         <h4 class='menu_title'>{$item['name']}</h4>
         <p class='cost'>{$item['price']}</p>
-        <p class='description'>{$item['description']}</p>
         <div class='menuSubmitContainer'>
           <form action='shoppingcart.php' method='post'>
             <input type='hidden' name='id' value=' {$sandwichesid}'>
@@ -602,7 +595,6 @@ $sandwichesMenu = "";
           <img class='itemPic'src='images/{$item['imgURL']}'>
           <h4 class='menu_title'>{$item['name']}</h4>
           <p class='cost'>{$item['price']}</p>
-          <p class='description'>{$item['description']}</p>
           <div class='menuSubmitContainer'>
             <form action='shoppingcart.php' method='post'>
               <input type='hidden' name='id' value=' {$subsid}'>
@@ -620,7 +612,6 @@ $sandwichesMenu = "";
             <img class='itemPic'src='images/{$item['imgURL']}'>
             <h4 class='menu_title'>{$item['name']}</h4>
             <p class='cost'>{$item['price']}</p>
-            <p class='description'>{$item['description']}</p>
             <div class='menuSubmitContainer'>
               <form action='shoppingcart.php' method='post'>
                 <input type='hidden' name='id' value=' {$pastaplusid}'>
@@ -639,7 +630,6 @@ $sandwichesMenu = "";
               <img class='itemPic'src='images/{$item['imgURL']}'>
               <h4 class='menu_title'>{$item['name']}</h4>
               <p class='cost'>{$item['price']}</p>
-              <p class='description'>{$item['description']}</p>
               <div class='menuSubmitContainer'>
                 <form action='shoppingcart.php' method='post'>
                   <input type='hidden' name='id' value=' {$bakedpastaid}'>
@@ -695,7 +685,6 @@ $chickenentreesMenu = "";
             <img class='itemPic'src='images/{$item['imgURL']}'>
             <h4 class='menu_title'>{$item['name']}</h4>
             <p class='cost'>{$item['price']}</p>
-            <p class='description'>{$item['description']}</p>
             <div class='menuSubmitContainer'>
               <form action='shoppingcart.php' method='post'>
                 <input type='hidden' name='id' value=' {$neapolitanid}'>
@@ -752,7 +741,6 @@ $specialtytoppingsMenu = "";
           <img class='itemPic'src='images/{$item['imgURL']}'>
           <h4 class='menu_title'>{$item['name']}</h4>
           <p class='cost'>{$item['price']}</p>
-          <p class='description'>{$item['description']}</p>
           <div class='menuSubmitContainer'>
             <form action='shoppingcart.php' method='post'>
               <input type='hidden' name='id' value=' {$specialtypizzaid}'>
@@ -770,7 +758,6 @@ $specialtytoppingsMenu = "";
             <img class='itemPic'src='images/{$item['imgURL']}'>
             <h4 class='menu_title'>{$item['name']}</h4>
             <p class='cost'>{$item['price']}</p>
-            <p class='description'>{$item['description']}</p>
             <div class='menuSubmitContainer'>
               <form action='shoppingcart.php' method='post'>
                 <input type='hidden' name='id' value=' {$dessertsid}'>
@@ -807,7 +794,6 @@ $specialtytoppingsMenu = "";
               $barMenu = $barMenu . "<div class='item'>
                 <img class='itemPic'src='images/{$item['imgURL']}'>
                 <h4 class='menu_title'>{$item['name']}</h4>
-                <p class='cost'>{$item['price']}</p>
                 <p class='description'>{$item['description']}</p>
                 <div class='menuSubmitContainer'>
                   <form action='shoppingcart.php' method='post'>
