@@ -1,6 +1,6 @@
 <?php
 $food = array();
-$food[0] = array();
+$food[0] = array()
                $food[0]['category'] = 'Appetizer';
                $food[0]['name'] = 'Garlic Bread';
                $food[0]['imgURL'] = 'app-menu.png';  // if all your images are in the same folder, you only need the file name here
