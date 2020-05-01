@@ -68,11 +68,107 @@
         <p> <strong> We now offer online ordering, add to your favorite dishes to the cart and never wait for a meal again.</strong>
       </div>
 <main>
-
+<div class="menurow">
   <?php
   	echo $appetizerMenu;
   ?>
+</div>
 
+<div class="menurow">
+  <?php
+  	echo $saladsMenu;
+  ?>
+</div>
+
+<div class="menurow">
+  <?php
+  	echo $sidesMenu;
+  ?>
+</div>
+
+<div class="menurow">
+  <?php
+  	echo $kidsmenuMenu;
+  ?>
+</div>
+
+<div class="menurow">
+  <?php
+  	echo $sandwichesMenu;
+  ?>
+</div>
+
+<div class="menurow">
+  <?php
+  	echo $subsMenu;
+  ?>
+</div>
+
+<div class="menurow">
+  <?php
+  	echo $pastaplusMenu;
+  ?>
+</div>
+
+<div class="menurow">
+  <?php
+  	echo $bakedpastaMenu;
+  ?>
+</div>
+
+<div class="menurow">
+  <?php
+  	echo $chickenentreesMenu;
+  ?>
+</div>
+
+<div class="menurow">
+  <?php
+  	echo $seafoodentreesMenu;
+  ?>
+</div>
+
+<div class="menurow">
+  <?php
+  	echo $neapolitanMenu;
+  ?>
+</div>
+
+<div class="menurow">
+  <?php
+  	echo $pizzatoppingsMenu;
+  ?>
+</div>
+
+<div class="menurow">
+  <?php
+  	echo $specialtytoppingsMenu;
+  ?>
+</div>
+
+<div class="menurow">
+  <?php
+  	echo $specialtypizzaMenu;
+  ?>
+</div>
+
+<div class="menurow">
+  <?php
+  	echo $dessertsMenu;
+  ?>
+</div>
+
+<div class="menurow">
+  <?php
+  	echo $drinksMenu;
+  ?>
+</div>
+
+<div class="menurow">
+  <?php
+  	echo $barMenu;
+  ?>
+</div>
 </main>
 </body>
 
