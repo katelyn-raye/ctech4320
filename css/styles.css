@@ -368,8 +368,9 @@ input[type=text]{
   border-radius: 20px;
 }
 
-.minicontainer h2{
-  padding-top: 3%;
+.menurow h2{
+  text-align: center;
+  width: 100%;
 }
 
 .menurow, .responsiveMenu{
