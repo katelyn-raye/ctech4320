@@ -519,7 +519,7 @@ $appetizerMenu = "";
 
   $saladsMenu = "";
     foreach ($food as $saladsid =>$item){
-      if ($item['category'] == 'Appetizer') {
+      if ($item['category'] == 'Salads') {
         $saladsMenu = $saladsMenu . "<div class='item'>
           <img class='itemPic'src='images/{$item['imgURL']}'>
           <h4 class='menu_title'>{$item['name']}</h4>
@@ -536,7 +536,7 @@ $appetizerMenu = "";
     }
     $sidesMenu = "";
       foreach ($food as $sidesid =>$item){
-        if ($item['category'] == 'Appetizer') {
+        if ($item['category'] == 'Side Orders') {
           $sidesMenu = $sidesMenu . "<div class='item'>
             <img class='itemPic'src='images/{$item['imgURL']}'>
             <h4 class='menu_title'>{$item['name']}</h4>
@@ -554,7 +554,7 @@ $appetizerMenu = "";
 
       $kidsmenuMenu = "";
         foreach ($food as $kidsmenuid =>$item){
-          if ($item['category'] == 'Appetizer') {
+          if ($item['category'] == 'Child Menu') {
             $kidsmenuMenu = $kidsmenuMenu . "<div class='item'>
               <img class='itemPic'src='images/{$item['imgURL']}'>
               <h4 class='menu_title'>{$item['name']}</h4>
@@ -572,7 +572,7 @@ $appetizerMenu = "";
 
 $sandwichesMenu = "";
   foreach ($food as $sandwichesid =>$item){
-    if ($item['category'] == 'Appetizer') {
+    if ($item['category'] == 'Sandwiches') {
       $sandwichesMenu = $sandwichesMenu . "<div class='item'>
         <img class='itemPic'src='images/{$item['imgURL']}'>
         <h4 class='menu_title'>{$item['name']}</h4>
@@ -590,7 +590,7 @@ $sandwichesMenu = "";
 
   $subsMenu = "";
     foreach ($food as $subsid =>$item){
-      if ($item['category'] == 'Appetizer') {
+      if ($item['category'] == 'Hot Subs') {
         $subsMenu = $subsMenu . "<div class='item'>
           <img class='itemPic'src='images/{$item['imgURL']}'>
           <h4 class='menu_title'>{$item['name']}</h4>
@@ -607,7 +607,7 @@ $sandwichesMenu = "";
     }
     $pastaplusMenu = "";
       foreach ($food as $pastaplusid =>$item){
-        if ($item['category'] == 'Appetizer') {
+        if ($item['category'] == 'Pasta Plus') {
           $pastaplusMenu = $pastaplusMenu . "<div class='item'>
             <img class='itemPic'src='images/{$item['imgURL']}'>
             <h4 class='menu_title'>{$item['name']}</h4>
@@ -625,7 +625,7 @@ $sandwichesMenu = "";
 
       $bakedpastaMenu = "";
         foreach ($food as $bakedpastaid =>$item){
-          if ($item['category'] == 'Appetizer') {
+          if ($item['category'] == 'Baked Pasta') {
             $bakedpastaMenu = $bakedpastaMenu . "<div class='item'>
               <img class='itemPic'src='images/{$item['imgURL']}'>
               <h4 class='menu_title'>{$item['name']}</h4>
@@ -643,7 +643,7 @@ $sandwichesMenu = "";
 
 $chickenentreesMenu = "";
   foreach ($food as $chickenentreesid =>$item){
-    if ($item['category'] == 'Appetizer') {
+    if ($item['category'] == 'Chicken Entrees') {
       $chickenentreesMenu = $chickenentreesMenu . "<div class='item'>
         <img class='itemPic'src='images/{$item['imgURL']}'>
         <h4 class='menu_title'>{$item['name']}</h4>
@@ -662,7 +662,7 @@ $chickenentreesMenu = "";
 
   $seafoodentreesMenu = "";
     foreach ($food as $seafoodentreesid =>$item){
-      if ($item['category'] == 'Appetizer') {
+      if ($item['category'] == 'Seafood Entrees') {
         $seafoodentreesMenu = $seafoodentreesMenu . "<div class='item'>
           <img class='itemPic'src='images/{$item['imgURL']}'>
           <h4 class='menu_title'>{$item['name']}</h4>
@@ -680,7 +680,7 @@ $chickenentreesMenu = "";
     }
     $neapolitanMenu = "";
       foreach ($food as $neapolitanid =>$item){
-        if ($item['category'] == 'Appetizer') {
+        if ($item['category'] == 'Neapolitan Style Pizza') {
           $sidesMenu = $sidesMenu . "<div class='item'>
             <img class='itemPic'src='images/{$item['imgURL']}'>
             <h4 class='menu_title'>{$item['name']}</h4>
@@ -698,7 +698,7 @@ $chickenentreesMenu = "";
 
       $pizzatoppingsMenu = "";
         foreach ($food as $pizzatoppingsid =>$item){
-          if ($item['category'] == 'Appetizer') {
+          if ($item['category'] == 'Pizza Toppings') {
             $pizzatoppingsMenu = $vpizzatoppingsMenu . "<div class='item'>
               <img class='itemPic'src='images/{$item['imgURL']}'>
               <h4 class='menu_title'>{$item['name']}</h4>
@@ -717,7 +717,7 @@ $chickenentreesMenu = "";
 
 $specialtytoppingsMenu = "";
   foreach ($food as $specialtytoppingsid =>$item){
-    if ($item['category'] == 'Appetizer') {
+    if ($item['category'] == 'Specialty Toppings') {
       $specialtytoppingsMenu = $specialtytoppingsMenu . "<div class='item'>
         <img class='itemPic'src='images/{$item['imgURL']}'>
         <h4 class='menu_title'>{$item['name']}</h4>
@@ -736,7 +736,7 @@ $specialtytoppingsMenu = "";
 
   $specialtypizzaMenu = "";
     foreach ($food as $specialtypizzaid =>$item){
-      if ($item['category'] == 'Appetizer') {
+      if ($item['category'] == 'Specialty Pizza') {
         $specialtypizzaMenu = $specialtypizzaMenu . "<div class='item'>
           <img class='itemPic'src='images/{$item['imgURL']}'>
           <h4 class='menu_title'>{$item['name']}</h4>
@@ -753,7 +753,7 @@ $specialtytoppingsMenu = "";
     }
     $dessertsMenu = "";
       foreach ($food as $dessertsid =>$item){
-        if ($item['category'] == 'Appetizer') {
+        if ($item['category'] == 'Desserts') {
           $dessertsMenu = $dessertsMenu . "<div class='item'>
             <img class='itemPic'src='images/{$item['imgURL']}'>
             <h4 class='menu_title'>{$item['name']}</h4>
@@ -771,7 +771,7 @@ $specialtytoppingsMenu = "";
 
       $drinksMenu = "";
         foreach ($food as $drinksid =>$item){
-          if ($item['category'] == 'Appetizer') {
+          if ($item['category'] == 'Drinks') {
             $drinksMenu = $drinksMenu . "<div class='item'>
               <img class='itemPic'src='images/{$item['imgURL']}'>
               <h4 class='menu_title'>{$item['name']}</h4>
@@ -790,7 +790,7 @@ $specialtytoppingsMenu = "";
 
         $barMenu = "";
           foreach ($food as $barid =>$item){
-            if ($item['category'] == 'Appetizer') {
+            if ($item['category'] == 'Full Bar') {
               $barMenu = $barMenu . "<div class='item'>
                 <img class='itemPic'src='images/{$item['imgURL']}'>
                 <h4 class='menu_title'>{$item['name']}</h4>
