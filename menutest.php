@@ -90,119 +90,119 @@
 	</div>
 <main>
 <div id="goto1" class="menurow">
-	<h2>Appetizer</h2>
+	<h2>Appetizer</h2><br>
   <?php
   	echo $appetizerMenu;
   ?>
 </div>
 
 <div id="goto2" class="menurow">
-	<h2>Salads</h2>
+	<h2>Salads</h2><br>
   <?php
   	echo $saladsMenu;
   ?>
 </div>
 
 <div id="goto3" class="menurow">
-	<h2>Side Orders</h2>
+	<h2>Side Orders</h2><br>
   <?php
   	echo $sidesMenu;
   ?>
 </div>
 
 <div id="goto4" class="menurow">
-	<h2>Children's Menu</h2>
+	<h2>Children's Menu</h2><br>
   <?php
   	echo $kidsmenuMenu;
   ?>
 </div>
 
 <div id="goto5" class="menurow">
-	<h2>Sandwiches</h2>
+	<h2>Sandwiches</h2><br>
   <?php
   	echo $sandwichesMenu;
   ?>
 </div>
 
 <div id="goto6" class="menurow">
-	<h2>Hot Subs</h2>
+	<h2>Hot Subs</h2><br>
   <?php
   	echo $subsMenu;
   ?>
 </div>
 
 <div id="goto7" class="menurow">
-	<h2>Pasta Plus</h2>
+	<h2>Pasta Plus</h2><br>
   <?php
   	echo $pastaplusMenu;
   ?>
 </div>
 
 <div id="goto8" class="menurow">
-	<h2>Baked Pasta</h2>
+	<h2>Baked Pasta</h2><br>
   <?php
   	echo $bakedpastaMenu;
   ?>
 </div>
 
 <div id="goto9" class="menurow">
-	<h2>Chicken Entrees</h2>
+	<h2>Chicken Entrees</h2><br>
   <?php
   	echo $chickenentreesMenu;
   ?>
 </div>
 
 <div id="goto10"class="menurow">
-	<h2>Seafood Entrees</h2>
+	<h2>Seafood Entrees</h2><br>
   <?php
   	echo $seafoodentreesMenu;
   ?>
 </div>
 
 <div id="goto11" class="menurow">
-	<h2>Neapolitan Style Pizza</h2>
+	<h2>Neapolitan Style Pizza</h2><br>
   <?php
   	echo $neapolitanMenu;
   ?>
 </div>
 
 <div id="goto12" class="menurow">
-	<h2>Pizza Toppings</h2>
+	<h2>Pizza Toppings</h2><br>
   <?php
   	echo $pizzatoppingsMenu;
   ?>
 </div>
 
 <div id="goto13" class="menurow">
-	<h2>Specialty Toppings</h2>
+	<h2>Specialty Toppings</h2><br>
   <?php
   	echo $specialtytoppingsMenu;
   ?>
 </div>
 
 <div id="goto14" class="menurow">
-	<h2>Specialty Pizza</h2>
+	<h2>Specialty Pizza</h2><br>
   <?php
   	echo $specialtypizzaMenu;
   ?>
 </div>
 
 <div id="goto15" class="menurow">
-	<h2>Desserts</h2>
+	<h2>Desserts</h2><br>
   <?php
   	echo $dessertsMenu;
   ?>
 </div>
 
 <div id="goto16" class="menurow">
-	<h2>Drinks</h2>
+	<h2>Drinks</h2><br>
   <?php
   	echo $drinksMenu;
   ?>
 </div>
 
 <div id="goto17" class="menurow">
-	<h2>Full Bar</h2>
+	<h2>Full Bar</h2><br>
   <?php
   	echo $barMenu;
   ?>
