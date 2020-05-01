@@ -67,104 +67,142 @@
         <h2>Save Time and Order Online</h2>
         <p> <strong> We now offer online ordering, add to your favorite dishes to the cart and never wait for a meal again.</strong>
       </div>
+	<div class="small-nav">
+		<ul>
+			<li><a href="goto1">Appetizers</a></li>
+			<li><a href="goto2">Salads</a></li>
+			<li><a href="goto3">Side Orders</a></li>
+			<li><a href="goto4">Kids Menu</a></li>
+			<li><a href="goto5">Sandwiches</a></li>
+			<li><a href="goto6">Hot Subs</a></li>
+			<li><a href="goto7">Pasta Plus</a></li>
+			<li><a href="goto8">Baked Pasta</a></li>
+			<li><a href="goto9">Chicken Entrees</a></li>
+			<li><a href="goto10">Seafood Entrees</a></li>
+			<li><a href="got011">Neapolitan Style Pizza</a></li>
+			<li><a href="goto12">Pizza Toppings</a></li>
+			<li><a href="goto13">Specialty Toppings</a></li>
+			<li><a href="goto14"></a>Specialty Pizza</li>
+			<li><a href="goto15">Desserts</a></li>
+			<li><a href="goto16">Drinks</a></li>
+			<li><a href="goto17">Full Bar</a></li>
+		</ul>
+	</div>
 <main>
-<div class="menurow">
+<div id="goto1" class="menurow">
+	<h2>Appetizer</h2>
   <?php
   	echo $appetizerMenu;
   ?>
 </div>
 
-<div class="menurow">
+<div id="goto2" class="menurow">
+	<h2>Salads</h2>
   <?php
   	echo $saladsMenu;
   ?>
 </div>
 
-<div class="menurow">
+<div id="goto3" class="menurow">
+	<h2>Side Orders</h2>
   <?php
   	echo $sidesMenu;
   ?>
 </div>
 
-<div class="menurow">
+<div id="goto4" class="menurow">
+	<h2>Children's Menu</h2>
   <?php
   	echo $kidsmenuMenu;
   ?>
 </div>
 
-<div class="menurow">
+<div id="goto5" class="menurow">
+	<h2>Sandwiches</h2>
   <?php
   	echo $sandwichesMenu;
   ?>
 </div>
 
-<div class="menurow">
+<div id="goto6" class="menurow">
+	<h2>Hot Subs</h2>
   <?php
   	echo $subsMenu;
   ?>
 </div>
 
-<div class="menurow">
+<div id="goto7" class="menurow">
+	<h2>Pasta Plus</h2>
   <?php
   	echo $pastaplusMenu;
   ?>
 </div>
 
-<div class="menurow">
+<div id="goto8" class="menurow">
+	<h2>Baked Pasta</h2>
   <?php
   	echo $bakedpastaMenu;
   ?>
 </div>
 
-<div class="menurow">
+<div id="goto9" class="menurow">
+	<h2>Chicken Entrees</h2>
   <?php
   	echo $chickenentreesMenu;
   ?>
 </div>
 
-<div class="menurow">
+<div id="goto10"class="menurow">
+	<h2>Seafood Entrees</h2>
   <?php
   	echo $seafoodentreesMenu;
   ?>
 </div>
 
-<div class="menurow">
+<div id="goto11" class="menurow">
+	<h2>Neapolitan Style Pizza</h2>
   <?php
   	echo $neapolitanMenu;
   ?>
 </div>
 
-<div class="menurow">
+<div id="goto12" class="menurow">
+	<h2>Pizza Toppings</h2>
   <?php
   	echo $pizzatoppingsMenu;
   ?>
 </div>
 
-<div class="menurow">
+<div id="goto13" class="menurow">
+	<h2>Specialty Toppings</h2>
   <?php
   	echo $specialtytoppingsMenu;
   ?>
 </div>
 
-<div class="menurow">
+<div id="goto14" class="menurow">
+	<h2>Specialty Pizza</h2>
   <?php
   	echo $specialtypizzaMenu;
   ?>
 </div>
 
-<div class="menurow">
+<div id="goto15" class="menurow">
+	<h2>Desserts</h2>
   <?php
   	echo $dessertsMenu;
   ?>
 </div>
 
-<div class="menurow">
+<div id="goto16" class="menurow">
+	<h2>Drinks</h2>
   <?php
   	echo $drinksMenu;
   ?>
 </div>
 
-<div class="menurow">
+<div id="goto17" class="menurow">
+	<h2>Full Bar</h2>
   <?php
   	echo $barMenu;
   ?>
