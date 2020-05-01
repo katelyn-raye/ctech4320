@@ -82,7 +82,7 @@
 			<li><a href="#got011">Neapolitan Style Pizza</a></li>
 			<li><a href="#goto12">Pizza Toppings</a></li>
 			<li><a href="#goto13">Specialty Toppings</a></li>
-			<li><a href="#goto14"></a>Specialty Pizza</li>
+			<li><a href="#goto14">Specialty Pizza</a></li>
 			<li><a href="#goto15">Desserts</a></li>
 			<li><a href="#goto16">Drinks</a></li>
 			<li><a href="#goto17">Full Bar</a></li>
