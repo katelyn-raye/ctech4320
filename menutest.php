@@ -208,6 +208,10 @@
   ?>
 </div>
 </main>
+<div class ="top-scroll">
+<a href="#pge-top"><h4> Back To Top </h4>
+<i class="fas fa-arrow-alt-circle-up"></i></a>
+</div>
 </body>
 
 <footer>
