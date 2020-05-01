@@ -375,8 +375,8 @@ input[type=text]{
 .menurow, .responsiveMenu{
   display: flex;
   display: -webkit-flex;
-  flex-flow: row nowrap;
-  -webkit-flex-flow: row nowrap;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
   justify-content: space-between;
   -webkit-justify-content: space-between;
   align-items: flex-start;
@@ -385,6 +385,7 @@ input[type=text]{
   -webkit-align-content: space-between;
   width: 100%;
   margin-top: 5%;
+  padding-top:2em;
 
 }
 
@@ -406,6 +407,7 @@ input[type=text]{
 .item img{
   border-radius: 15px;
   margin-top: 3%;
+  width: 100%;
 }
 
 .item{
@@ -421,6 +423,8 @@ input[type=text]{
   -webkit-align-content: center;
   border-radius: 15px;
   background-color: white;
+  width: 35%;
+  margin:2%;
 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -429,9 +433,12 @@ input[type=text]{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
 }
 
-
+.item h4{
+  width: 95%;
+}
 .item p{
   margin-bottom: 0;
+  width: 95%;
 }
 
 .item .cost{
@@ -511,6 +518,11 @@ input[type=text]{
 
     .item{
       margin: 2% 0;
+    }
+
+    .item img{
+      border-radius: 15px;
+      margin-top: 3%;
     }
   }
 
