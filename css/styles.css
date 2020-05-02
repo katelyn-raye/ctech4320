@@ -485,7 +485,13 @@ input[type=text]{
   padding-top: 1em;
 }
 
-@media(max-width: 1400px){
+@media (min-width:1000px) {
+  .item{
+    width: 33%;
+  }
+}
+
+@media(max-width: 999px){
   .menurow, .responsiveMenu{
     display: flex;
     display: -webkit-flex;
