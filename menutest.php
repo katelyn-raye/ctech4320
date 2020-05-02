@@ -68,36 +68,36 @@
 <div class="menu-main">
 	<div id="pge-top" class="small-nav col-lg-3 col-md-2">
 		<ul>
-			<li>Starters</li>
-				<ul>
+			<li class="small-nav-toggler">Starters</li>
+				<ul class="small-nav-dropdown">
 					 <li><a href="#goto1">Appetizers</a></li>
 						<li><a href="#goto2">Salads</a></li>
 				</ul>
-			<li>Pasta</li>
-			<ul>
+			<li class="small-nav-toggler">Pasta</li>
+			<ul class="small-nav-dropdown">
 				<li><a href="#goto7">Pasta Plus</a></li>
 				<li><a href="#goto8">Baked Pasta</a></li>
 			</ul>
-			<li>Entrees</li>
-				<ul>
+			<li class="small-nav-toggler">Entrees</li>
+				<ul class="small-nav-dropdown">
 					<li><a href="#goto9">Chicken Entrees</a></li>
 					<li><a href="#goto10">Seafood Entrees</a></li>
 				</ul>
-			<li>Pizza</li>
-				<ul>
+			<li class="small-nav-toggler">Pizza</li>
+				<ul class="small-nav-dropdown">
 					<li><a href="#got011">Neapolitan Style Pizza</a></li>
 					<li><a href="#goto12">Pizza Toppings</a></li>
 					<li><a href="#goto13">Specialty Toppings</a></li>
 					<li><a href="#goto14">Specialty Pizza</a></li>
 			 </ul>
-			<li>Sandwiches</li>
-			<ul>
+			<li class="small-nav-toggler">Sandwiches</li>
+			<ul class="small-nav-dropdown">
 			<li><a href="#goto5">Sandwiches</a></li>
 			<li><a href="#goto6">Hot Subs</a></li>
 		 </ul>
 			<li><a href="#goto4">Kids Menu</a></li>
-			<li>Sides</li>
-					<ul>
+			<li class="small-nav-toggler">Sides</li>
+					<ul class="small-nav-dropdown">
 						<li><a href="#goto3">Side Orders</a></li>
 						<li><a href="#goto16">Drinks</a></li>
 						<li><a href="#goto17">Full Bar</a></li>
