@@ -59,15 +59,14 @@
       <p><b>We Cater. </b>Want us to be your personal chef for your special event? Call 817-483-0330.</p>
     </div>
 
-
-    <div class="container-index">
       <div class="wrapper">
-      <div class="col-lg-12 col-md-12 col-xs-12 header-btn">
+      <div class="col-lg-12 col-md-12 col-xs-12 menu-header-btn">
         <h1>Menu </h1>
         <h2>Save Time and Order Online</h2>
         <p> <strong> We now offer online ordering, add to your favorite dishes to the cart and never wait for a meal again.</strong>
       </div>
-	<div id="pge-top" class="small-nav">
+<div class="menu-main">
+	<div id="pge-top" class="small-nav col-lg-3 col-md-2">
 		<ul>
 			<li>Starters</li>
 				<ul>
@@ -107,7 +106,7 @@
 
 		</ul>
 	</div>
-<main>
+	<div class ="menu-items col-lg-9 col-md-10 col-xs-12">
 <div id="goto1" class="menurow">
 	<h2>Appetizer</h2><br>
   <?php
@@ -226,7 +225,8 @@
   	echo $barMenu;
   ?>
 </div>
-</main>
+</div>
+</div>
 <div class="top-scrollCon">
 <div class ="top-scroll">
 <a href="#pge-top"><h4> Back To Top </h4>
@@ -266,8 +266,6 @@
                         </li>
                     </ul>
                 </div>
-
-            </div>
 
             <div class="row">
                 <div class="footer-sitemap-allpage">
