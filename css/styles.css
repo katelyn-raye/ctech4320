@@ -535,20 +535,40 @@ input[type=text]{
 
 }
 
-/* Styles for mini nav on menu*/
+/* Styles for menu*/
+
+.menu-header-btn {
+  padding-bottom: 5rem;
+}
+
+.menu-main {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.small-nav {
+  justify-content: flex-start;
+  padding-right:3rem;
+}
+
+.menu-items {
+  justify-content: flex-end;
+}
 
 .small-nav ul {
-list-style-type: none;
-display: flex;
-flex-flow: row wrap;
-color: black;
-text-decoration: none;
-justify-content: space-between;
-}
+list-style-type: none;}
 
 .small-nav a {
   color: black;
   text-decoration: none;
+}
+
+.small-nav li {
+  display: block;
+  overflow: hidden;
+  background-color: #CF4336;
+  padding: .5rem;
+  font-size: .95rem;
 }
 
 .top-scroll a {
@@ -567,7 +587,6 @@ justify-content: space-between;
 .top-scroll {
   background-color: lightgrey;
   width: 15%;
-  position: fixed;
 }
 
 /* contact page starts here */
