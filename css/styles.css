@@ -538,13 +538,7 @@ input[type=text]{
 /* Styles for mini nav on menu*/
 
 .small-nav ul {
-list-style-type: none;
-display: flex;
-flex-flow: row wrap;
-color: black;
-text-decoration: none;
-justify-content: space-between;
-}
+list-style-type: none;}
 
 .small-nav a {
   color: black;
