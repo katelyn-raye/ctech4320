@@ -20,7 +20,7 @@ function makeHeader ($page) {
     <div class="nav-top">
       <a class="navbar-brand" href="index.html" title="Branding"><img src="spaghetti.svg" title="logo" alt="logo">Brand</img></a></img>
       <p>Bella Vita II Italian Restaurant & Bar</p>
-      <img src="Artboard 1.png" alt="" title="">
+      <img src="" alt="" title="">
     </div>
 
     <div class="nav-bottom">
