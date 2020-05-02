@@ -1,3 +1,6 @@
+<?php
+	include ('components.php');
+?>
 <!doctype html>
 
 <html lang="en">
@@ -11,31 +14,11 @@
 
     <link rel="stylesheet" href="css/styles.css">
 
-    <?php
-    include makeHeader('header');
-     ?>
+        <?php echo makeHeader('header'); ?>
 </head>
 
 <body>
-  <header>
-      <div id="mainNavigation" class="navbar-collapse">
-          <ul class="navbar-nav">
-              <li class="navbar-item">
-                  <a class="navbar-link" href="index.html" title="Home">Home</a>
-              </li>
-              <li class="navbar-item">
-                  <a class="navbar-link" href="#" title="Menu">Menu</a>
-              </li>
-              <li class="navbar-item">
-                  <a class="navbar-link" href="catering.html" title="Catering">Catering</a>
-              </li>
-              <li class="navbar-item">
-                  <a class="navbar-link" href="contact.html" title="Contact">Contact</a>
-              </li>``
-          </ul>
-      </div>
-    <!-- NAVIGATION End -->
-    </header>
+
     <div class="container-index">
       <div class="wrapper">
       <div class="col-lg-12 col-md-12 col-xs-12 header-btn">
