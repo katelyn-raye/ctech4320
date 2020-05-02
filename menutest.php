@@ -67,7 +67,7 @@
         <h2>Save Time and Order Online</h2>
         <p> <strong> We now offer online ordering, add to your favorite dishes to the cart and never wait for a meal again.</strong>
       </div>
-	<div class="small-nav">
+	<div id="pge-top" class="small-nav">
 		<ul>
 			<li><a href="#goto1">Appetizers</a></li>
 			<li><a href="#goto2">Salads</a></li>
@@ -208,6 +208,10 @@
   ?>
 </div>
 </main>
+<div class ="top-scroll">
+<a href="#pge-top"><h4> Back To Top </h4>
+<i class="fas fa-arrow-alt-circle-up"></i></a>
+</div>
 </body>
 
 <footer>
