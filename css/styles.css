@@ -550,15 +550,18 @@ justify-content: space-between;
   text-decoration: none;
 }
 
-.top-scroll {
-  background-color: lightgrey;
-  width: 15%;
+.top-scrollCon {
   display:flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: flex-end;
   align-content: flex-end;
-  position: sticky;
+}
+
+.top-scroll {
+  background-color: lightgrey;
+  width: 15%;
+  position: fixed;
 }
 
 /* contact page starts here */
