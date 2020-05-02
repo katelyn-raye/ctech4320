@@ -1,6 +1,6 @@
 <?php
 // check for form submission from the menu page (the submit button name is "submitAdd", see above.
-if (array_key_exists("submitAdd", $_POST))
+//if (array_key_exists("submitAdd", $_POST))
 // validate user input : both id and quantity are required, and both need to be numbers
 $required = array('id', 'quantity');
 // add the item to the cookie variable
