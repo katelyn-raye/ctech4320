@@ -681,7 +681,7 @@ $chickenentreesMenu = "";
     $neapolitanMenu = "";
       foreach ($food as $neapolitanid =>$item){
         if ($item['category'] == 'Neapolitan Style Pizza') {
-          $sidesMenu = $sidesMenu . "<div class='item'>
+          $neapolitanMenu = $neapolitanMenu . "<div class='item'>
             <img class='itemPic'src='images/{$item['imgURL']}'>
             <h4 class='menu_title'>{$item['name']}</h4>
             <p class='cost'>{$item['price']}</p>
