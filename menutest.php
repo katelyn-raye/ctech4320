@@ -208,9 +208,11 @@
   ?>
 </div>
 </main>
+<div class="top-scrollCon">
 <div class ="top-scroll">
 <a href="#pge-top"><h4> Back To Top </h4>
 <i class="fas fa-arrow-alt-circle-up"></i></a>
+</div>
 </div>
 </body>
 
