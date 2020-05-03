@@ -1,5 +1,6 @@
 <?php
 	include('menupost.php');
+	include('shop_post.php');
 ?>
 <!doctype html>
 
@@ -54,28 +55,8 @@
 
     <!-- NAVIGATION End -->
 
-
-      <div class ="favorites">
-        <h2>Our Favorites</h2>
-        <div class="favorites-pics">
-          <div>
-          <img src="images/food 1.png" title="pasta for you" alt="This is an image of pasta">
-          <h5>Pasta dish 1<br>
-          Spaghetti with red sauce </h5>
-        </div>
-        <div>
-          <img src="images/food 2.png" title="pasta for you" alt="This is an image of pasta">
-          <h5>Salad dish 3<br>
-          Italian dressing on spinach</h5>
-        </div>
-        <div>
-          <img src="images/food 3.png" title="pasta for you" alt="This is an image of pasta">
-          <h5>Entree dish 7<br>
-          The best calzones of your life. </h5>
-        </div>
-        </div>
         <?php
-        echo $_COOKIE['itemSelect'];
+        	echo $_COOKIE['cart'];
         ?>
       </div>
     </div>
