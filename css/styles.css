@@ -545,6 +545,14 @@ input[type=text]{
 
 /* Styles for menu*/
 
+.dropdown>.nav-link.closed {
+	background-image: url(../images/arrowdown.png);
+}
+
+ .dropdown>.nav-link:after {
+	background-image: url(../images/arrowup.png);
+}
+
 .menu-header-btn {
   padding-bottom: 5rem;
 }
