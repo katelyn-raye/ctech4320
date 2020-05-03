@@ -371,6 +371,7 @@ input[type=text]{
 .menurow h2{
   text-align: center;
   width: 100%;
+  margin-top: none;
 }
 
 .menurow, .responsiveMenu{
@@ -489,6 +490,9 @@ input[type=text]{
   .item{
     width: 33%;
   }
+  .wrapper{
+    margin: 0 10%;
+  }
 }
 
 @media(max-width: 999px){
@@ -505,6 +509,10 @@ input[type=text]{
     -webkit-align-content: space-around;
     width: 100%;
     margin-bottom: 5%;
+  }
+
+  .wrapper{
+    margin: 0 5%;
   }
 
   @media (max-width: 535px) {
