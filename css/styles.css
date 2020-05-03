@@ -100,39 +100,6 @@ body{
         transition: 0.5s;
       }
 
-    /*  .nav-bottom li:hover{
-        background-color: white;
-        color: #CF4336;
-        -webkit-transition: 0.5s;
-        transition: 0.5s;
-      }*/
-
-
-/*#mainNavigation{
-  background-color: #4D5057;
-  padding: 1em 0;
-}
-
-
-#mainNavigation ul a{
-  text-decoration: none;
-  color: #F5F7DC;
-  padding: 3em;
-}
-
-#mainNavigation ul a:hover{
-  color: #DB4C40;
-}*/
-
-
-/*.navbar{
-  position: fixed;
-	top: 0;
-	left: 0;
-  z-index: 9999;
-	width: 100%;
-	height: 50px;
-}*/
 
 .navbar .navbar-brand {
   display: block;
@@ -557,7 +524,7 @@ input[type=text]{
 padding-top: 2rem;
 }
 
-.menu-header-btn h2, p, h1 {
+.menu-header-btn h2 p h1 {
   background-color: white;
   padding-left: none;
   padding-right: none;
