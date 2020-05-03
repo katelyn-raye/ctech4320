@@ -568,6 +568,7 @@ list-style-type: none;
 font-family: 'Muli', 'Arial', sans-serif !important;
 font-size: 1.25rem;
 font-style: bold;
+padding: 0;
 }
 
 .menurow h2 {
@@ -594,6 +595,10 @@ font-style: bold;
   padding: .25rem;
   border: solid 1.5px darkgrey;
   text-align: center;
+}
+
+.small-nav-dropdown ul{
+  padding: 0;
 }
 
 .small-nav-dropdown li {
