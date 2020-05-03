@@ -539,6 +539,9 @@ input[type=text]{
 
 .menu-header-btn {
   padding-bottom: 5rem;
+  background-image: url(../images/menu-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .menu-main {
