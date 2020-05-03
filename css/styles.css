@@ -512,6 +512,14 @@ input[type=text]{
 
 /* Styles for menu*/
 
+.dropdown>.nav-link.closed {
+	background-image: url(../images/arrowdown.png);
+}
+
+ .dropdown>.nav-link:after {
+	background-image: url(../images/arrowup.png);
+}
+
 .menu-header-btn {
   padding-bottom: 5rem;
   background-image: url(../images/menu-bg.png);
@@ -551,6 +559,7 @@ list-style-type: none;
 font-family: 'Muli', 'Arial', sans-serif !important;
 font-size: 1.25rem;
 font-style: bold;
+padding: 0;
 }
 
 .menurow h2 {
@@ -577,6 +586,10 @@ font-style: bold;
   padding: .25rem;
   border: solid 1.5px darkgrey;
   text-align: center;
+}
+
+.small-nav-dropdown ul{
+  padding: 0;
 }
 
 .small-nav-dropdown li {

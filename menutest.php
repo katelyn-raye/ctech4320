@@ -68,10 +68,12 @@
 <div class="menu-main">
 	<div id="pge-top" class="small-nav col-lg-3 col-md-2">
 		<ul>
-			<li class="small-nav-toggler">Starters</li>
+			<li class="small-nav-toggler dropdown">
+				<a class="nav-link closed" href="#" title="Link">Starters</a>
 				<ul class="small-nav-dropdown">
-					 <li><a href="#goto1">Appetizers</a></li>
-						<li><a href="#goto2">Salads</a></li>
+					 <li><a href="#goto1" class="dropdown-item">Appetizers</a></li>
+						<li><a href="#goto2" class="dropdown-item">Salads</a></li>
+						</li>
 				</ul>
 			<li class="small-nav-toggler">Pasta</li>
 			<ul class="small-nav-dropdown">
