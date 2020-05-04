@@ -4,8 +4,8 @@ include('menupost.php');
 	// validate user input : both id and quantity are required, and both need to be numbers
 	// check for form submission from the menu page (the submit button name is "submitAdd", see above.
   if (array_key_exists("submitAdd", $_POST)){
-  $required = array('id', 'quantity');
-  $expected = array('id', 'quantity');
+  $required = array('id','quantity');
+  $expected = array('id','quantity');
   $missing = array();
   	// use foreach loop to run through each item in the expected array
   	foreach($expected as $thisField) {
@@ -79,6 +79,9 @@ include('menupost.php');
 
         if ($quantity > 0){  // do not print the items with quantity as 0
             $itemName = $food[$cartid]['name'];
+
+            if (isset($food[$cartid])) { echo "food item available"; } else { echo "food item NOT available"; }
+
             $itemImgURL = $food[$cartid]['imgURL'];
             $itemCost = $food[$cartid]['price'];
 
@@ -88,7 +91,7 @@ include('menupost.php');
           <p class='cost'>$itemCost</p>
           <div class='menuSubmitContainer'>
             <form action='shoppingcart.php' method='post'>
-              <input type='hidden' name='id' value=' $cartid'>
+              <input type='hidden' name='id' value='$cartid'>
               <input type='text' name='quantity' value='$quantity'>
               <input type='submit' name='submitAdd' value='Update' class='addCart'>
             </form>
@@ -107,7 +110,7 @@ include('menupost.php');
             <p class='cost'>{$item['price']}</p>
             <div class='menuSubmitContainer'>
               <form action='shoppingcart.php' method='post'>
-                <input type='hidden' name='id' value=' {$appetizerid}'>
+                <input type='hidden' name='id' value='{$appetizerid}'>
                 <input type='text' name='quantity' value='1'>
                 <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
               </form>

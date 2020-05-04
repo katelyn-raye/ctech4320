@@ -508,7 +508,7 @@ $appetizerMenu = "";
         <p class='cost'>{$item['price']}</p>
         <div class='menuSubmitContainer'>
           <form action='shoppingcart.php' method='post'>
-            <input type='hidden' name='id' value=' {$appetizerid}'>
+            <input type='hidden' name='id' value='{$appetizerid}'>
             <input type='text' name='quantity' value='1'>
             <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
           </form>
@@ -526,7 +526,7 @@ $appetizerMenu = "";
           <p class='cost'>{$item['price']}</p>
           <div class='menuSubmitContainer'>
             <form action='shoppingcart.php' method='post'>
-              <input type='hidden' name='id' value=' {$saladsid}'>
+              <input type='hidden' name='id' value='{$saladsid}'>
               <input type='text' name='quantity' value='1'>
               <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
             </form>
@@ -543,7 +543,7 @@ $appetizerMenu = "";
             <p class='cost'>{$item['price']}</p>
             <div class='menuSubmitContainer'>
               <form action='shoppingcart.php' method='post'>
-                <input type='hidden' name='id' value=' {$sizesid}'>
+                <input type='hidden' name='id' value='{$sizesid}'>
                 <input type='text' name='quantity' value='1'>
                 <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
               </form>
@@ -561,7 +561,7 @@ $appetizerMenu = "";
               <p class='cost'>{$item['price']}</p>
               <div class='menuSubmitContainer'>
                 <form action='shoppingcart.php' method='post'>
-                  <input type='hidden' name='id' value=' {$kidsmenuid}'>
+                  <input type='hidden' name='id' value='{$kidsmenuid}'>
                   <input type='text' name='quantity' value='1'>
                   <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
                 </form>
@@ -579,7 +579,7 @@ $sandwichesMenu = "";
         <p class='cost'>{$item['price']}</p>
         <div class='menuSubmitContainer'>
           <form action='shoppingcart.php' method='post'>
-            <input type='hidden' name='id' value=' {$sandwichesid}'>
+            <input type='hidden' name='id' value='{$sandwichesid}'>
             <input type='text' name='quantity' value='1'>
             <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
           </form>
@@ -597,7 +597,7 @@ $sandwichesMenu = "";
           <p class='cost'>{$item['price']}</p>
           <div class='menuSubmitContainer'>
             <form action='shoppingcart.php' method='post'>
-              <input type='hidden' name='id' value=' {$subsid}'>
+              <input type='hidden' name='id' value='{$subsid}'>
               <input type='text' name='quantity' value='1'>
               <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
             </form>
@@ -614,7 +614,7 @@ $sandwichesMenu = "";
             <p class='cost'>{$item['price']}</p>
             <div class='menuSubmitContainer'>
               <form action='shoppingcart.php' method='post'>
-                <input type='hidden' name='id' value=' {$pastaplusid}'>
+                <input type='hidden' name='id' value='{$pastaplusid}'>
                 <input type='text' name='quantity' value='1'>
                 <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
               </form>
@@ -632,7 +632,7 @@ $sandwichesMenu = "";
               <p class='cost'>{$item['price']}</p>
               <div class='menuSubmitContainer'>
                 <form action='shoppingcart.php' method='post'>
-                  <input type='hidden' name='id' value=' {$bakedpastaid}'>
+                  <input type='hidden' name='id' value='{$bakedpastaid}'>
                   <input type='text' name='quantity' value='1'>
                   <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
                 </form>
@@ -651,7 +651,7 @@ $chickenentreesMenu = "";
         <p class='description'>{$item['description']}</p>
         <div class='menuSubmitContainer'>
           <form action='shoppingcart.php' method='post'>
-            <input type='hidden' name='id' value=' {$chickenentreesid}'>
+            <input type='hidden' name='id' value='{$chickenentreesid}'>
             <input type='text' name='quantity' value='1'>
             <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
           </form>
@@ -670,7 +670,7 @@ $chickenentreesMenu = "";
           <p class='description'>{$item['description']}</p>
           <div class='menuSubmitContainer'>
             <form action='shoppingcart.php' method='post'>
-              <input type='hidden' name='id' value=' {$seafoodentreesid}'>
+              <input type='hidden' name='id' value='{$seafoodentreesid}'>
               <input type='text' name='quantity' value='1'>
               <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
             </form>
@@ -687,7 +687,7 @@ $chickenentreesMenu = "";
             <p class='cost'>{$item['price']}</p>
             <div class='menuSubmitContainer'>
               <form action='shoppingcart.php' method='post'>
-                <input type='hidden' name='id' value=' {$neapolitanid}'>
+                <input type='hidden' name='id' value='{$neapolitanid}'>
                 <input type='text' name='quantity' value='1'>
                 <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
               </form>
@@ -706,7 +706,7 @@ $chickenentreesMenu = "";
               <p class='description'>{$item['description']}</p>
               <div class='menuSubmitContainer'>
                 <form action='shoppingcart.php' method='post'>
-                  <input type='hidden' name='id' value=' {$pizzatoppingsid}'>
+                  <input type='hidden' name='id' value='{$pizzatoppingsid}'>
                   <input type='text' name='quantity' value='1'>
                   <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
                 </form>
@@ -725,7 +725,7 @@ $specialtytoppingsMenu = "";
         <p class='description'>{$item['description']}</p>
         <div class='menuSubmitContainer'>
           <form action='shoppingcart.php' method='post'>
-            <input type='hidden' name='id' value=' {$specialtytoppingsid}'>
+            <input type='hidden' name='id' value='{$specialtytoppingsid}'>
             <input type='text' name='quantity' value='1'>
             <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
           </form>
@@ -743,7 +743,7 @@ $specialtytoppingsMenu = "";
           <p class='cost'>{$item['price']}</p>
           <div class='menuSubmitContainer'>
             <form action='shoppingcart.php' method='post'>
-              <input type='hidden' name='id' value=' {$specialtypizzaid}'>
+              <input type='hidden' name='id' value='{$specialtypizzaid}'>
               <input type='text' name='quantity' value='1'>
               <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
             </form>
@@ -760,7 +760,7 @@ $specialtytoppingsMenu = "";
             <p class='cost'>{$item['price']}</p>
             <div class='menuSubmitContainer'>
               <form action='shoppingcart.php' method='post'>
-                <input type='hidden' name='id' value=' {$dessertsid}'>
+                <input type='hidden' name='id' value='{$dessertsid}'>
                 <input type='text' name='quantity' value='1'>
                 <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
               </form>
@@ -779,7 +779,7 @@ $specialtytoppingsMenu = "";
               <p class='description'>{$item['description']}</p>
               <div class='menuSubmitContainer'>
                 <form action='shoppingcart.php' method='post'>
-                  <input type='hidden' name='id' value=' {$drinksid}'>
+                  <input type='hidden' name='id' value='{$drinksid}'>
                   <input type='text' name='quantity' value='1'>
                   <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
                 </form>
@@ -797,7 +797,7 @@ $specialtytoppingsMenu = "";
                 <p class='description'>{$item['description']}</p>
                 <div class='menuSubmitContainer'>
                   <form action='shoppingcart.php' method='post'>
-                    <input type='hidden' name='id' value=' {$barid}'>
+                    <input type='hidden' name='id' value='{$barid}'>
                     <input type='text' name='quantity' value='1'>
                     <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
                   </form>
