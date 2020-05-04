@@ -267,15 +267,6 @@ main p{
   color: #DB4C40;
 }
 
-input {
-  height: 30px;
-}
-
-select{
-  height:30px;
-}
-
-
 /*form styles*/
 
 .resEmphasis{
@@ -309,25 +300,6 @@ select{
   }
 }
 
-select{
-  border:1px solid #BBBBBB;
-}
-
-input[type=text]{
-        width: 50%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: block;
-        border: none;
-        border-bottom: 1px solid #BBBBBB;
-        -webkit-transition: 0.5s;
-        transition: 0.5s;
-      }
-
-      input[type=text]:focus{
-        border: none;
-        border-bottom: 1px solid black;
-      }
 
 /* menu page */
 .minicontainer{
@@ -522,7 +494,7 @@ input[type=text]{
 
 .menu-header-btn {
   padding-bottom: 5rem;
-  color: black;
+  color: white;
   background-color: rgba(0,0,0,0.5);
 }
 .menu-header-btn::after {
@@ -541,13 +513,6 @@ input[type=text]{
 
 .menu-header-btn h1 {
 padding-top: 2rem;
-}
-
-.menu-header-btn h2, p, h1 {
-  padding-left: none;
-  padding-right: none;
-  margin-left: none;
-  margin-right: none;
 }
 
 .menu-main {
@@ -647,8 +612,46 @@ padding: 0;
   padding-left: 2rem;
 }
 
+/* form styles start here for contact */
+input[type=text], select, textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  width: 100%;
+}
+
+input[type=submit] {
+  background-color: #CF4336;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #DB4C40;
+}
+
+.quick-contact {
+  display:flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 5rem 15rem 5rem 15rem;
+}
+
 @media (max-width: 768px){
   .map {
-    display: none;
+    display: none;}
+
+  input[type=text], select, textarea {
+    width: 100%;
   }
 }
