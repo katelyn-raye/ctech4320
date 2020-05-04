@@ -1,5 +1,4 @@
 <?php
-	include('menupost.php');
 	include('shop_post.php');
 ?>
 <!doctype html>
@@ -41,7 +40,7 @@
         <div class="nav-bottom">
           <ul class="nav-bar">
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">Menu</a></li>
+            <li><a href="menutest.php">Menu</a></li>
             <li><a href="reservation.php">Reservation</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
@@ -54,13 +53,15 @@
     </header>
 
     <!-- NAVIGATION End -->
-
+		<body>
+			<main>
+	<form action='shoppingcart.php' method='post'>
         <?php
-        	echo $_COOKIE['cart'];
+					echo $cartid;
+        	echo $cartContent;
         ?>
-      </div>
-    </div>
-    </div>
+      </form>
+	</main>
 </body>
 
 <footer>

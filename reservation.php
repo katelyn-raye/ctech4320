@@ -57,7 +57,7 @@
 
         <div class = "flexThird">
           <label class="resTitle">Reservation Date</label>
-          <input type="text" name="datepicker" id="datepicker">
+          <input type="date" name="date" id="date" value="<?php echo date('m-d-Y'); ?>">
         </div>
 
 

@@ -4,13 +4,15 @@ include ('components.php');
 $fName = $_POST['fName'];
 $lNamee = $_POST['lName'];
 $partySize = $_POST['partySize'];
-$date = $_POST['var'];
+$date = date('m-d-Y', strtotime($_POST['date']));
 $time = $_POST['resTime'];
 $checkbox = $_POST['access'];
 $bgcolor = $_POST['partyAccess'];
 
 $permitted_chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 $code = substr(str_shuffle($permitted_chars), 0, 5);
+
+//$date = date("F j, Y");
 
 $output="<p>Thank you <span class='resEmphasis'>$fName</span>, we'll have a table ready for your party of <span class='resEmphasis'>$partySize</span> at <span class='resEmphasis'>$time</span> on <span class='resEmphasis'>$date</span>. </p> <p>Your code is:</p><span id='resCode'>$code</span> <p>Show this code to the host to check in.</p>";
 

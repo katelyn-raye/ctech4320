@@ -4,10 +4,6 @@ $(function () {
   }).change();
 });
 
-$( function() {
-  $( "#datepicker" ).datepicker();
-} );
-
 
 $(function(){
 
