@@ -75,7 +75,38 @@
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13448.065673193994!2d-97.2405284!3d32.5790862!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xefd1832325a11ccd!2sBellavita%20II%20Italian%20Restaurant!5e0!3m2!1sen!2sus!4v1586992899706!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
       </div>
+      <div class="quick-contact">
+        <h2> Quick Contact </h2>
+      <form action="contact-post.php">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="user@domain.com">
+
+        <label for="number">Phone Number</label>
+        <input type="text" id="number" name="number" placeholder="(123)-876-9876">
+
+        <label for="reason">Reason</label>
+        <select id="reason" name="reason">
+          <option value="Reservation Problem">Reservation Problem</option>
+          <option value="Online Order">Online Order</option>
+          <option value="Catering">Catering</option>
+          <option value="Other">Other</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Tell Us More.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+
+      </form>
     </div>
+      </div>
   </body>
   <footer>
       <div class="footerbar">
