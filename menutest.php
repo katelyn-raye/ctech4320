@@ -61,9 +61,9 @@
 
       <div class="wrapper">
       <div class="col-lg-12 col-md-12 col-xs-12 menu-header-btn">
-        <h1>Menu </h1>
-        <h2>Save Time and Order Online</h2>
-        <p> <strong> We now offer online ordering, add to your favorite dishes to the cart and never wait for a meal again.</strong>
+        <div class="btn-top"><h1>Menu </h1></div>
+        <div class="btn-top"><h2>Save Time and Order Online</h2></div>
+        <div class="btn-top"><p> <strong> We now offer online ordering, add to your favorite dishes to the cart and never wait for a meal again.</strong></div>
       </div>
 <div class="menu-main">
 	<div id="pge-top" class="small-nav col-lg-3 col-md-2">

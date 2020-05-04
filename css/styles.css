@@ -522,7 +522,7 @@ input[type=text]{
 
 .menu-header-btn {
   padding-bottom: 5rem;
-  color: black;
+  color: white;
   background-color: rgba(0,0,0,0.5);
 }
 .menu-header-btn::after {
@@ -541,13 +541,6 @@ input[type=text]{
 
 .menu-header-btn h1 {
 padding-top: 2rem;
-}
-
-.menu-header-btn h2, p, h1 {
-  padding-left: none;
-  padding-right: none;
-  margin-left: none;
-  margin-right: none;
 }
 
 .menu-main {
