@@ -267,15 +267,6 @@ main p{
   color: #DB4C40;
 }
 
-input {
-  height: 30px;
-}
-
-select{
-  height:30px;
-}
-
-
 /*form styles*/
 
 .resEmphasis{
@@ -307,10 +298,6 @@ select{
   border: none;
   border-radius: 4px;
   }
-}
-
-select{
-  border:1px solid #BBBBBB;
 }
 
 
@@ -627,14 +614,14 @@ padding: 0;
 
 /* form styles start here for contact */
 input[type=text], select, textarea {
-  width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
-  resize: vertical
+  resize: vertical;
+  width: 100%;
 }
 
 input[type=submit] {
@@ -650,10 +637,21 @@ input[type=submit]:hover {
   background-color: #DB4C40;
 }
 
-
+.quick-contact {
+  display:flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 5rem 15rem 5rem 15rem;
+}
 
 @media (max-width: 768px){
   .map {
-    display: none;
+    display: none;}
+
+  input[type=text], select, textarea {
+    width: 100%;
   }
 }
