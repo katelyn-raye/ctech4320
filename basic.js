@@ -1,4 +1,4 @@
-$(function () {
+$(function(){
   $('.checkAccess').change(function () {
      $('#yesAccess').toggle(this.checked);
   }).change();
@@ -15,3 +15,9 @@ $(function(){
     mainNavigation.toggle(500);
   });
 });
+
+//$(document).ready(function(){
+//  $("button").click(function(){
+    //  $("ul").toggleClass(".menuitems");
+  //});
+//});

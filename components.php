@@ -25,10 +25,10 @@ function makeHeader ($page) {
 
     <div class="nav-bottom">
       <ul class="nav-bar">
-        <li><a href="index.php">Home</a></li>
-        <li><a href="menutest.php">Menu</a></li>
-        <li><a href="reservation.php">Reservation</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li class="menuitems"><a href="index.php">Home</a></li>
+        <li class="menuitems"><a href="menutest.php">Menu</a></li>
+        <li class="menuitems"><a href="reservation.php">Reservation</a></li>
+        <li class="menuitems"><a href="contact.html">Contact</a></li>
       </ul>
     </div>
 
