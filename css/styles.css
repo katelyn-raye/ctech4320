@@ -681,6 +681,9 @@ input[type=submit]:hover {
 }
   }
 
+  .quick-contact img {
+    width: 30%;}
+
 
 /*payment form*/
 
