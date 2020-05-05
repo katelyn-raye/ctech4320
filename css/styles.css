@@ -14,7 +14,7 @@
 @import url("master.css");
 @import url("typography.css");
 @import url("footer.css");
-@import url("basic.js")
+
 
 /*Navigation*/
 
@@ -130,16 +130,22 @@ body{
     display:none;
   }
 
+
   #mainNavigation ul{
     list-style-type: none;
     margin:0;
 
-    display: flex;
-    display: -webkit-flex;
-    flex-flow: row nowrap;
-    -webkit-flex-flow: row nowrap;
-    justify-content: center;
-    -webkit-justify-content:center;
+    display: block!important;
+  }
+
+  .nav{
+
+        display: flex;
+        display: -webkit-flex;
+        flex-flow: row nowrap;
+        -webkit-flex-flow: row nowrap;
+        justify-content: center;
+        -webkit-justify-content:center;
   }
 
   .resWrap{
@@ -173,7 +179,7 @@ body{
   }
 
   .checkAccess{
-    
+
   }
 }
 
@@ -181,8 +187,8 @@ body{
   .responsive-nav{
     display: flex;
     display: -webkit-flex;
-    flex-flow: row nowrap;
-    -webkit-flex-flow: row nowrap;
+    flex-flow: column wrap;
+    -webkit-flex-flow: column wrap;
     justify-content: space-between;
     -webkit-justify-content: space-between;
     align-items: space-between;
