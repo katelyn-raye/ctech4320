@@ -676,3 +676,14 @@ input[type=submit]:hover {
 }
   }
 }
+
+/*payment form*/
+
+.names-payment {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.names-payment input[type=text] {
+  width:25%;
+}
