@@ -116,5 +116,6 @@
         </div>
 
     </div>
+		  <script src="basic.js"></script>
 </footer>
 </html>
