@@ -686,15 +686,23 @@ input[type=submit]:hover {
   margin-top:0;
 }
   }
-}
+
 
 /*payment form*/
 
-.names-payment {
-  display: flex;
-  flex-flow: row nowrap;
+.billing-info {
+  margin-left:15rem;
+  margin-right: 15rem;
 }
 
-.names-payment input[type=text] {
-  width:25%;
+.address input[type=text] {
+  width: 75%;
+}
+
+.payment-info input[type=text] {
+  width: 75%;
+}
+
+.payment-info select{
+  width: 75%;
 }
