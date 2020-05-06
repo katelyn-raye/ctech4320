@@ -10,7 +10,7 @@ $date = date('F d, Y', strtotime($_POST['date']));
 $time = $_POST['resTime'];
 $checkbox = $_POST['access'];
 $bgcolor = $_POST['partyAccess'];
-$email = $_POST['email'];
+$receiver = $_POST['email'];
 
 $permitted_chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 $code = substr(str_shuffle($permitted_chars), 0, 5);
@@ -65,31 +65,21 @@ if (array_key_exists("SubmitThis", $_POST)) {
 
 		$output="<p>Thank you <span class='resEmphasis'>$fName</span>, we'll have a table ready for your party of <span class='resEmphasis'>$partySize</span> at <span class='resEmphasis'>$time</span> on <span class='resEmphasis'>$date</span>. </p> <p>Your code is:</p><span id='resCode'>$code</span> <p>Show this code to the host to check in.</p>";
 
-    $to="kathryn.kerr@mavs.uta.edu";
+    $to=$receiver;
     $subject="Bella Vita Reservation Confirmation";
-    $header="From: admin@mysite.com";
-    $message="
-      Confirmation Number: $code
-      Title: $title
-      Tag: $tagStr
-      Comment: $comment
-      ";
+     $header="From: bellavita@mysite.com";
+    $message=" Thank you $fName $lName, we recieved your reservation details for your party of $partySize on $date.
+
+    Your confirmation number is $code, we'll have your table ready at $time.
+
+    Show the confirmation code to check in with the host. We can't wait to see you soon!";
 // try setting $message = $output; and see what you receive in the email
 
-$mailSent = mail($to,$subject,$message,$header);
-
-if ($mailSent) {
-
-   $emailResultMessage =  "<p>The web site admin team has been notified about your comment submission.  .... Thank you. We will ...";
-
-} else {
-   $emailResultMessage = "<p>Something went wrong with our email system.  We are not able to send the email notification to our Web admin team regarding your comment submission.  Please ... ";
-}
+$mailSent = mail($to,$subject,$header,$message);
 
 // add $emailResultMessage to the comment preview table as the final output
 $output = $output.$emailResultMessage;
 
-?>
 
 	} else {
 
