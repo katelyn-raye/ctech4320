@@ -65,7 +65,8 @@ if (array_key_exists("SubmitThis", $_POST)) {
 
 		$output="<p>Thank you <span class='resEmphasis'>$fName</span>, we'll have a table ready for your party of <span class='resEmphasis'>$partySize</span> at <span class='resEmphasis'>$time</span> on <span class='resEmphasis'>$date</span>. </p> <p>Your code is:</p><span id='resCode'>$code</span> <p>Show this code to the host to check in.</p>";
 
-    $to=$receiver;
+    $admin_email = "From: kathryn.kerr@mavs.uta.edu";
+    $to = "To:$_POST['email']";
     $subject="Bella Vita Reservation Confirmation";
      $header="From: bellavita@mysite.com";
     $message=" Thank you $fName $lName, we recieved your reservation details for your party of $partySize on $date.
@@ -75,7 +76,7 @@ if (array_key_exists("SubmitThis", $_POST)) {
     Show the confirmation code to check in with the host. We can't wait to see you soon!";
 // try setting $message = $output; and see what you receive in the email
 
-$mailSent = mail($to,$subject,$header,$message);
+$mailSent = mail($admin_email,$to,$subject,$header,$message);
 
 // add $emailResultMessage to the comment preview table as the final output
 $output = $output.$emailResultMessage;
@@ -124,15 +125,12 @@ $output = $output.$emailResultMessage;
 
   </head>
   <body>
-		<div class="wrapper">
-			<h1>We've Received Your Reservation!</h1>
     <p>
       <?php echo makeHeader('header'); ?>
       <div class="resWrap">
     	<?php echo $output ?>
       </div>
     </p>
-	</div>
   </body>
   <?php echo makeFooter('footer'); ?>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
