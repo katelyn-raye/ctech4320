@@ -93,6 +93,24 @@ div h5 {
   font-weight: bold;
 }
 
+.fav-item {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 25%;
+  border-right: solid 1px lightgrey;
+}
+.fav-item3 {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 25%;
+}
+
 
 @media (max-width: 992px){
   .header-btn p {
@@ -114,8 +132,12 @@ div h5 {
     justify-content: center;
     align-items: center;
     align-content: center;
-
   }
+.fav-item {width:auto;
+  border:none;}
+
+  .fav-item3 {width:auto;
+    border:none;
 }
 
 @media (max-width: 768px){

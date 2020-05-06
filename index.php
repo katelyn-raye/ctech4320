@@ -29,7 +29,7 @@
            <br> 5694 FM 1187
                <br> Rendon, TX 76140
          <br>817-483-0330</p>
-        <a href="#">Order Now!</a>
+        <a href="menutest.php">Order Now!</a>
       </div>
       <div class="col-lg-12 col-md-12 col-xs-12 bio">
         <div class="big-picture">
@@ -45,24 +45,36 @@
         </div>
       </div>
       <div class ="favorites">
-        <h2>Our Favorites</h2>
+        <h2>Customer Favorites</h2>
         <div class="favorites-pics">
+					<div class="fav-item">
           <div>
           <img src="images/food 1.png" title="pasta for you" alt="This is an image of pasta">
-          <h5>Pasta dish 1<br>
-          Spaghetti with red sauce </h5>
+				</div>
+				<div>
+          <h5>Fettuccine Molto Mio</h5>
+          <p>Sun-dried tomatoes, onions, artichoke hearts & mushrooms in a creamy pink sauce</p>
         </div>
+			</div>
+				<div class="fav-item">
         <div>
           <img src="images/food 2.png" title="pasta for you" alt="This is an image of pasta">
-          <h5>Salad dish 3<br>
-          Italian dressing on spinach</h5>
+				</div>
+				<div>
+          <h5>Antipasto Salad</h5>
+          <p>Our signiture salad that has been perfected over generations.</p>
         </div>
+			</div>
+			<div class="fav-item3">
         <div>
           <img src="images/food 3.png" title="pasta for you" alt="This is an image of pasta">
-          <h5>Entree dish 7<br>
-          The best calzones of your life. </h5>
+				</div>
+				<div>
+          <h5>Chicken Luma de Mare</h5>
+          <p>Chicken Breast stuffed with shrimp, crabmeat, mushrooms, spinach.</p>
         </div>
         </div>
+			</div>
       </div>
     </div>
     </div>
