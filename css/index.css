@@ -16,6 +16,7 @@ body {
   background-image: url('../images/header-index.jpg');
   background-repeat: no-repeat;
   background-size: contain;
+  padding:0;
 }
 
 
