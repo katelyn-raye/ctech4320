@@ -20,6 +20,7 @@
 <body>
 
     <div class="container-index">
+			<div class="background">
       <div class="wrapper">
       <div class="col-lg-12 col-md-12 col-xs-12 header-btn">
         <h1>Bella Vita Italian Restaurant & Bar </h1>
@@ -65,6 +66,7 @@
       </div>
     </div>
     </div>
+	</div>
 </body>
 
 <?php echo makeFooter('footer'); ?>

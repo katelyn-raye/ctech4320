@@ -8,11 +8,16 @@ body {
   margin-right: 15%;
 }
 
+.background{
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
 .container-index {
-  background-image: url('../images/Artboard 1.png');
+  background-image: url('../images/header-index.jpg');
   background-repeat: no-repeat;
   background-size: contain;
 }
+
 
 .catering-banner{
   background-color: #252629;
@@ -46,10 +51,9 @@ body {
   justify-content: center;
   align-items: center;
   align-content: center;
-  color: white;
+  color: black;
   padding-bottom: 5rem;
   padding-top: 2rem;
-  text-shadow:  5px 5px 5px grey;
 }
 
 .header-btn h2 {
@@ -57,15 +61,17 @@ body {
 }
 
 .header-btn a {
-  color: black;
+  color: white;
   display: block;
   text-decoration: none;
-  background-color:#EBC52C;
+  background-color:#CF4336;
+  border-radius: 5px;
   padding: .5rem;
+  font-family: 'Muli', 'Arial', sans-serif;
 }
 
 .header-btn a:hover {
-  background-color: #CAA71D;
+  background-color: #DB4C40;
 }
 
 .favorites {
