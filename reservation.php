@@ -106,7 +106,7 @@
 
     </main>
 
-    <footer></footer>
+    <?php echo makeFooter('footer'); ?>
   <script src="basic.js"></script>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 

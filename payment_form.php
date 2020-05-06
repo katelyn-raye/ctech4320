@@ -1,3 +1,8 @@
+
+<?php
+	include ('components.php');
+?>
+
 <!doctype html>
 
 <html lang="en">
@@ -12,6 +17,8 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <?php echo makeHeader('header'); ?>
+
   <div class="payment-container">
   <div class="billing-info">
     <h2> Billing Information</h2>
@@ -87,4 +94,5 @@
   </div>
   </div>
 </body>
+<?php echo makeFooter('footer'); ?>
 </html>
