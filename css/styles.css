@@ -18,6 +18,7 @@
 
 /*Navigation*/
 
+
 body{
   margin:0;
 }
@@ -135,17 +136,14 @@ body{
     list-style-type: none;
     margin:0;
 
-    display: flex;
-    display: -webkit-flex;
+    display: flex!important;
+    display: -webkit-flex!important;
     flex-flow: row nowrap;
     -webkit-flex-flow: row nowrap;
     justify-content: center;
     -webkit-justify-content:center;
   }
 
-.display{
-  display: block;
-}
 
   .resWrap{
     margin-left: 15%;
@@ -198,6 +196,14 @@ body{
 
   }
 
+  .nav-top{
+    display: none;
+  }
+
+  .nav-bar{
+    display: none;
+  }
+
   a.navbar-brand{
     width:3em;
     height:3em;
@@ -215,13 +221,7 @@ body{
     width: 3rem;
     height: 3rem;
   }
-ul.nav-bar{
-  display: none;
-}
 
-.display{
-  display: block;
-}
 
   #mainnavigation ul{
     display: flex;

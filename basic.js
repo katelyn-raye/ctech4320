@@ -11,15 +11,7 @@ $(function(){
 
   toggler.on("click", function(){
     console.log("I was clicked");
-    let navBar = $("ul.nav-bar");
-    navBar.toggleClass("display");
-    //navBar.toggleClass(500);
+    let mainNavigation = $(".nav-bar");
+    mainNavigation.toggle(500);
   });
 });
-
-
-//$(document).ready(function(){
-  //$toggler.click(function(){
-    //  $("ul").toggleClass(".menuitems");
-  //});
-//});
