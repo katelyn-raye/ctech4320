@@ -31,6 +31,13 @@
          <br>817-483-0330</p>
         <a href="menutest.php">Order Now!</a>
       </div>
+			<div class=’cookie-banner’ style=’display: none’>
+<p>
+	By using our website, you agree to our
+	<a href="insert-link">cookie policy</a>
+</p>
+<button class="close">&times;</button>
+</div>
       <div class="col-lg-12 col-md-12 col-xs-12 bio">
         <div class="big-picture">
           <img src="images/image 2.jpg">
@@ -80,6 +87,9 @@
     </div>
 	</div>
 </body>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+</script>
+<script src="basic.js">
+</script>;
 <?php echo makeFooter('footer'); ?>
 </html>
