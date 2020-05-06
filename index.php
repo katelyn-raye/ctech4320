@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="css/styles.css">
 
         <?php echo makeHeader('header'); ?>
+				<div class="catering-banner">
+					<p><b>We Cater. </b>Want us to be your personal chef for your special event? Call 817-483-0330.</p>
+				</div>
 				<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
 
