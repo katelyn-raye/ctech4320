@@ -16,7 +16,6 @@ function makeHeader ($page) {
 
 <div id="mainNavigation" class="navbar-collapse">
 		<div class="nav">
-
     <div class="nav-top">
       <a class="navbar-brand" href="index.html" title="Branding"><img src="spaghetti.svg" title="logo" alt="logo">Brand</img></a></img>
       <p>Bella Vita II Italian Restaurant & Bar</p>
@@ -94,6 +93,10 @@ $footer = '
 
     </div>
 </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+</script>
+<script src="basic.js">
+</script>
 ';
 return $footer;
 
