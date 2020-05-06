@@ -134,12 +134,15 @@ $output = $output.$emailResultMessage;
 
   </head>
   <body>
+		<div class="wrapper">
+			<h1>We've Received Your Reservation!</h1>
     <p>
       <?php echo makeHeader('header'); ?>
       <div class="resWrap">
     	<?php echo $output ?>
       </div>
     </p>
+	</div>
   </body>
   <?php echo makeFooter('footer'); ?>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
