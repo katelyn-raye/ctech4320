@@ -1,6 +1,6 @@
 <?php
 $food = array();
-$food[0] = array();
+$food[90] = array();
                $food[0]['category'] = 'Appetizer';
                $food[0]['name'] = 'Garlic Bread';
                $food[0]['imgURL'] = 'app-menu.png';  // if all your images are in the same folder, you only need the file name here
@@ -543,7 +543,7 @@ $appetizerMenu = "";
             <p class='cost'>{$item['price']}</p>
             <div class='menuSubmitContainer'>
               <form action='shoppingcart.php' method='post'>
-                <input type='hidden' name='id' value='{$sizesid}'>
+                <input type='hidden' name='id' value='{$sidesid}'>
                 <input type='text' name='quantity' value='1'>
                 <input type='submit' name='submitAdd' value='Add to Cart' class='addCart'>
               </form>
