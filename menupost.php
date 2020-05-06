@@ -1,10 +1,10 @@
 <?php
 $food = array();
 $food[90] = array();
-               $food[0]['category'] = 'Appetizer';
-               $food[0]['name'] = 'Garlic Bread';
-               $food[0]['imgURL'] = 'app-menu.png';  // if all your images are in the same folder, you only need the file name here
-               $food[0]['price'] = '$2.99';
+               $food[90]['category'] = 'Appetizer';
+               $food[90]['name'] = 'Garlic Bread';
+               $food[90]['imgURL'] = 'app-menu.png';  // if all your images are in the same folder, you only need the file name here
+               $food[90]['price'] = '$2.99';
 $food[1] = array();
                $food[1]['category'] = 'Appetizer';
                $food[1]['name'] = 'Garlic Bread w/ Cheese';
