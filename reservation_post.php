@@ -124,10 +124,13 @@ $output = $output.$emailResultMessage;
 
   </head>
   <body>
+		<?php echo makeHeader('header'); ?>
+		<div class="catering-banner">
+			<p><b>We Cater. </b>Want us to be your personal chef for your special event? Call 817-483-0330.</p>
+		</div>
 		<div class="wrapper">
 			<h1>We've Received Your Reservation!</h1>
     <p>
-      <?php echo makeHeader('header'); ?>
       <div class="resWrap">
     	<?php echo $output ?>
       </div>
