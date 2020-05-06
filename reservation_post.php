@@ -66,7 +66,7 @@ if (array_key_exists("SubmitThis", $_POST)) {
 		$output="<p>Thank you <span class='resEmphasis'>$fName</span>, we'll have a table ready for your party of <span class='resEmphasis'>$partySize</span> at <span class='resEmphasis'>$time</span> on <span class='resEmphasis'>$date</span>. </p> <p>Your code is:</p><span id='resCode'>$code</span> <p>Show this code to the host to check in.</p>";
 
     $admin_email = "From: kathryn.kerr@mavs.uta.edu";
-    $to = "To:$_POST['email']";
+    $to = $_POST['email'];
     $subject="Bella Vita Reservation Confirmation";
      $header="From: bellavita@mysite.com";
     $message=" Thank you $fName $lName, we recieved your reservation details for your party of $partySize on $date.
