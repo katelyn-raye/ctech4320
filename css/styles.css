@@ -535,7 +535,8 @@ main p{
 }
 
 .menu-header-btn h1 {
-padding-top: 2rem;
+  margin-top: 0;
+  padding-top: 2rem;
 }
 
 .menu-main {
