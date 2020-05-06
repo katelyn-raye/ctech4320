@@ -65,6 +65,32 @@ if (array_key_exists("SubmitThis", $_POST)) {
 
 		$output="<p>Thank you <span class='resEmphasis'>$fName</span>, we'll have a table ready for your party of <span class='resEmphasis'>$partySize</span> at <span class='resEmphasis'>$time</span> on <span class='resEmphasis'>$date</span>. </p> <p>Your code is:</p><span id='resCode'>$code</span> <p>Show this code to the host to check in.</p>";
 
+    $to="kathryn.kerr@mavs.uta.edu";
+    $subject="Bella Vita Reservation Confirmation";
+    $header="From: admin@mysite.com";
+    $message="
+      Confirmation Number: $code
+      Title: $title
+      Tag: $tagStr
+      Comment: $comment
+      ";
+// try setting $message = $output; and see what you receive in the email
+
+$mailSent = mail($to,$subject,$message,$header);
+
+if ($mailSent) {
+
+   $emailResultMessage =  "<p>The web site admin team has been notified about your comment submission.  .... Thank you. We will ...";
+
+} else {
+   $emailResultMessage = "<p>Something went wrong with our email system.  We are not able to send the email notification to our Web admin team regarding your comment submission.  Please ... ";
+}
+
+// add $emailResultMessage to the comment preview table as the final output
+$output = $output.$emailResultMessage;
+
+?>
+
 	} else {
 
         $output = "<h3>Oops!</h3>\n
