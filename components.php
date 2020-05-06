@@ -23,7 +23,7 @@ function makeHeader ($page) {
     </div>
 
     <div class="nav-bottom">
-      <ul class="nav-bar show">
+      <ul class="nav-bar">
         <li class="menuitems"><a href="index.php">Home</a></li>
         <li class="menuitems"><a href="menutest.php">Menu</a></li>
         <li class="menuitems"><a href="reservation.php">Reservation</a></li>

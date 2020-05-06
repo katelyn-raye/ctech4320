@@ -41,37 +41,54 @@
 				<ul class="small-nav-dropdown">
 					 <li><a href="#goto1" class="dropdown-item">Appetizers</a></li>
 						<li><a href="#goto2" class="dropdown-item">Salads</a></li>
-						</li>
 				</ul>
-			<li class="small-nav-toggler">Pasta</li>
+				</li>
+
+			<li class="small-nav-toggler dropdown">
+				<a class="nav-link closed" href="#" title="Link">Pasta</a>
 			<ul class="small-nav-dropdown">
 				<li><a href="#goto7">Pasta Plus</a></li>
 				<li><a href="#goto8">Baked Pasta</a></li>
 			</ul>
-			<li class="small-nav-toggler">Entrees</li>
+			</li>
+
+			<li class="small-nav-toggler dropdown">
+			<a class="nav-link closed" href="#" title="Link">Entrees</a>
 				<ul class="small-nav-dropdown">
 					<li><a href="#goto9">Chicken Entrees</a></li>
 					<li><a href="#goto10">Seafood Entrees</a></li>
 				</ul>
-			<li class="small-nav-toggler">Pizza</li>
+				</li>
+
+			<li class="small-nav-toggler dropdown">
+			<a class="nav-link closed" href="#" title="Link">Pizza</a>
 				<ul class="small-nav-dropdown">
 					<li><a href="#got011">Neapolitan Style Pizza</a></li>
 					<li><a href="#goto12">Pizza Toppings</a></li>
 					<li><a href="#goto13">Specialty Toppings</a></li>
 					<li><a href="#goto14">Specialty Pizza</a></li>
 			 </ul>
-			<li class="small-nav-toggler">Sandwiches</li>
+			 </li>
+
+			<li class="small-nav-toggler dropdown">
+			<a class="nav-link closed" href="#" title="Link">Sandwiches</a>
 			<ul class="small-nav-dropdown">
 			<li><a href="#goto5">Sandwiches</a></li>
 			<li><a href="#goto6">Hot Subs</a></li>
 		 </ul>
-			<li><a href="#goto4">Kids Menu</a></li>
-			<li class="small-nav-toggler">Sides</li>
+		 </li>
+
+			<li class="small-nav-toggler"><a href="#goto4">Kids Menu</a></li>
+
+			<li class="small-nav-toggler dropdown">
+			<a class="nav-link closed" href="#" title="Link">Sides</a>
 					<ul class="small-nav-dropdown">
 						<li><a href="#goto3">Side Orders</a></li>
 						<li><a href="#goto16">Drinks</a></li>
 						<li><a href="#goto17">Full Bar</a></li>
 					</ul>
+					</li>
+
 			<li><a href="#goto15">Desserts</a></li>
 
 		</ul>
@@ -197,10 +214,7 @@
 </div>
 </div>
 </div>
-<div class="top-scrollCon">
-<div class ="top-scroll">
-<a href="#pge-top"><h4> Back To Top </h4>
-<i class="fas fa-arrow-alt-circle-up"></i></a>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 </div>
 </div>
 </div>

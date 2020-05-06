@@ -28,12 +28,12 @@
 
         <div class = "resFlexGroup">
           <label class="resTitle">First Name</label>
-          <input type="text" name="fName" class="resHalf">
+          <input type="text" name="fName" class="resHalf" placeholder="First Name">
         </div>
 
         <div class = "resFlexGroup">
           <label class="resTitle">Last Name</label>
-          <input type="text" name="lName" class="resHalf">
+          <input type="text" name="lName" class="resHalf" placeholder="Last Name">
         </div>
       </div>
 			<div class="resNames">
@@ -59,19 +59,31 @@
 			<div class="resNames">
 				<div class = "resFlexGroup">
           <label class="resTitle">Reservation Time</label>
-          <select id="partySize" name="resTime" class="resHalf">
-            <option value="1:00 PM">1</option>
-            <option value="2: 00 PM">2</option>
-            <option value="partyThree">3</option>
-            <option value="partyFour">4</option>
-            <option value="partyFive">5</option>
-            <option value="partySix">6</option>
-            <option value="partySeven">7</option>
-            <option value="partyEight">8</option>
-            <option value="partyNine">9</option>
-            <option value="partyTen">10</option>
+          <select class="partySize" name="resTime" class="resHalf">
+            <option value="11:30 AM">11:30 AM</option>
+            <option value="12:00 PM">12:00 PM</option>
+            <option value="12:30 PM">12:30 PM</option>
+            <option value="1:00 PM">1:00 PM</option>
+            <option value="1:30 PM">1:30 PM</option>
+            <option value="2:00 PM">2:00 PM</option>
+            <option value="2:30 PM">2:30 PM</option>
+            <option value="3:00 PM">3:00 PM</option>
+            <option value="3:30 PM">3:30 PM</option>
+            <option value="4:00 PM">4:00 PM</option>
+						<option value="4:30 PM">4:30 PM</option>
+						<option value="5:00 PM">5:00 PM</option>
+						<option value="5:30 PM">5:30 PM</option>
+						<option value="6:00 PM">6:00 PM</option>
+						<option value="6:30 PM">6:30 PM</option>
+						<option value="7:00 PM">7:00 PM</option>
+						<option value="7:30 PM">7:30 PM</option>
            </select>
 				 </div>
+
+				 <div class = "resFlexGroup">
+           <label class="resTitle">Email</label>
+           <input type="email" name="email" placeholder="user@domain.com">
+ 				 </div>
     </div>
 
 				<div class="check">

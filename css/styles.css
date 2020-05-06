@@ -62,9 +62,6 @@ body{
         padding: 1em; 0;
       }
 
-      .nav-bottom{
-        padding: 0;
-      }
 
       .nav-bottom ul{
         display: flex;
@@ -81,7 +78,7 @@ body{
         margin: 0;
 
         list-style-type: none;
-        background-color: #CF4336;
+
       }
 
 
@@ -125,10 +122,28 @@ body{
     margin:0;
   }
 
+  .nav-bottom{
+    display: none;
+    background-color: #CF4336;
+    padding: 0;
+  }
+
 
 @media only screen and (min-width: 769px){
   .responsive-nav{
     display:none;
+  }
+
+  .nav-bottom{
+    display: flex!important;
+    display: -webkit-flex!important;
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    justify-content: center;
+    -webkit-justify-content:center;
+
   }
 
 
@@ -136,8 +151,8 @@ body{
     list-style-type: none;
     margin:0;
 
-    display: flex!important;
-    display: -webkit-flex!important;
+    display: flex;
+    display: -webkit-flex;
     flex-flow: row nowrap;
     -webkit-flex-flow: row nowrap;
     justify-content: center;
@@ -178,6 +193,41 @@ body{
   .checkAccess{
 
   }
+
+  /*MENU*/
+  .menu-main {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+  }
+}
+
+/*TABLET*/
+@media only screen and (max-width: 680px){
+
+  #mainNavigation ul{
+    list-style-type: none;
+    margin:0;
+
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: column wrap;
+    -webkit-flex-flow: column wrap;
+    justify-content: flex-start;
+    -webkit-justify-content:flex-start;
+    padding: 0
+  }
+
+  .nav-bottom li{
+  width:100%;
+  }
+
+  .nav-bottom a:hover{
+    color:#EFBC64 ;
+    background-color: transparent;
+  }
+
 }
 
 @media only screen and (max-width: 768px){
@@ -200,9 +250,6 @@ body{
     display: none;
   }
 
-  .nav-bar{
-    display: none;
-  }
 
   a.navbar-brand{
     width:3em;
@@ -257,8 +304,23 @@ body{
   padding: 0;
 }
 
+/*MENU PAGE*/
+
+.menu-main{
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: column wrap;
+  -webkit-flex-flow: column wrap;
+  padding: 0;
+}
+
+.item{
+  margin: 0;
+}
+
 
 }
+
 
 
 
@@ -483,18 +545,19 @@ main p{
       display: -webkit-flex;
       flex-flow: column wrap;
       -webkit-flex-flow: column wrap;
-      justify-content: space-around;
-      -webkit-justify-content: space-around;
-      align-items: flex-start;
-      -webkit-align-items: flex-start;
-      align-content: space-around;
-      -webkit-align-content: space-around;
+      justify-content: center;
+      -webkit-justify-content: center;
+      align-items: center;
+      -webkit-align-items: center;
+      align-content: center;
+      -webkit-align-content: center;
       margin: 0;
       width: 100%;
     }
 
     .item{
-      margin: 2% 0;
+      margin 0;
+      width: 100%;
     }
 
     .item img{
@@ -507,13 +570,6 @@ main p{
 
 /* Styles for menu*/
 
-.dropdown>.nav-link.closed {
-
-}
-
- .dropdown>.nav-link:after {
-
-}
 
 .menu-header-btn {
   padding-bottom: 5rem;
@@ -539,18 +595,17 @@ main p{
   padding-top: 2rem;
 }
 
-.menu-main {
-  display: flex;
-  flex-flow: row nowrap;
-}
 
 .small-nav {
   justify-content: flex-start;
-  padding-right:3rem;
 }
 
 .menu-items {
   justify-content: flex-end;
+}
+
+.small-nav-toggler{
+  border-bottom: 1px solid #CF4336;
 }
 
 .small-nav ul {
@@ -559,7 +614,10 @@ font-family: 'Muli', 'Arial', sans-serif !important;
 font-size: 1.25rem;
 font-style: bold;
 padding: 0;
+background-color:#e85246;
 }
+
+
 
 .menurow h2 {
   background-color: #CF4336;
@@ -570,49 +628,58 @@ padding: 0;
 }
 
 .small-nav a {
-  color: black;
+  color: white;
   text-decoration: none;
   padding: .25rem;
 }
 
 .small-nav li:hover {
-  background-color: rgba(207, 67, 54, 0.5);
+  background-color: rgba(207, 67, 54, 1);
 }
 
 .small-nav li {
   display: block;
   overflow: hidden;
-  padding: .25rem;
-  border: solid 1.5px darkgrey;
   text-align: center;
 }
 
-.small-nav-dropdown ul{
+.menu-main .nav-link .closed{
+  display: none;
+}
+
+.small-nav-dropdown ul > nav-link{
   padding: 0;
+  display: none!important;
 }
 
 .small-nav-dropdown li {
-  background-color: lightgrey;
-  font-size: .95rem !important;
+  background-color: rgba(219, 76, 64, 0.9);
+  font-size: .95rem;
+  border-bottom: 1px solid #CF4336;
 }
 
-.top-scroll a {
-  color: black;
-  text-decoration: none;
+/*Back to top button*/
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgba(207, 67, 54, 0.85); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 5em; /* Rounded corners */
+  font-size: 12px; /* Increase font size */
 }
 
-.top-scrollCon {
-  display:flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: flex-end;
-  align-content: flex-end;
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
 }
 
-.top-scroll {
-  background-color: lightgrey;
-  width: 15%;
-}
 
 /* contact page starts here */
 
@@ -638,7 +705,7 @@ padding: 0;
 }
 
 /* form styles start here for contact */
-input[type=text], select, textarea, input[type=date] {
+input[type=text], select, textarea, input[type=date], input[type=email] {
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;

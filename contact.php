@@ -29,13 +29,13 @@
       <form action="contact-post.php">
       <div>
         <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <input type="text" id="fname" name="firstname" placeholder="First Name">
         <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <input type="text" id="lname" name="lastname" placeholder="Last Name">
       </div>
       <div>
         <label for="email">Email</label>
-        <input type="text" id="email" name="email" placeholder="user@domain.com">
+        <input type="email" id="email" name="email" placeholder="user@domain.com">
         <label for="number">Phone Number</label>
         <input type="text" id="number" name="number" placeholder="(123)-876-9876">
       </div>
