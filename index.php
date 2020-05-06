@@ -15,6 +15,10 @@
     <link rel="stylesheet" href="css/styles.css">
 
         <?php echo makeHeader('header'); ?>
+				<div class="catering-banner">
+					<p><b>We Cater. </b>Want us to be your personal chef for your special event? Call 817-483-0330.</p>
+				</div>
+				<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
 
 <body>
@@ -31,13 +35,6 @@
          <br>817-483-0330</p>
         <a href="menutest.php">Order Now!</a>
       </div>
-			<div class=’cookie-banner’ style=’display: none’>
-<p>
-	By using our website, you agree to our
-	<a href="insert-link">cookie policy</a>
-</p>
-<button class="close">&times;</button>
-</div>
       <div class="col-lg-12 col-md-12 col-xs-12 bio">
         <div class="big-picture">
           <img src="images/image 2.jpg">
@@ -87,6 +84,21 @@
     </div>
 	</div>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#aa0000",
+      "text": "#ffdddd"
+    },
+    "button": {
+      "background": "#ff0000"
+    }
+  },
+  "position": "bottom-left"
+});
+</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
 </script>
 <script src="basic.js">

@@ -54,11 +54,3 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
-
-if (localStorage.getItem(‘cookieSeen’) != ‘shown’) {
-  $(‘.cookie-banner’).delay(2000).fadeIn();
-  localStorage.setItem(‘cookieSeen’,’shown’)
-};
-$(‘.close’).click(function() {
-  $(‘.cookie-banner’).fadeOut();
-})
