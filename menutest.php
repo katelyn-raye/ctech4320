@@ -1,5 +1,6 @@
 <?php
 	include('menupost.php');
+	include('components.php');
 ?>
 
 <!doctype html>
@@ -15,43 +16,10 @@
 
     <link rel="stylesheet" href="css/styles.css">
 
+		  <?php echo makeHeader('header'); ?>
+
 </head>
 <body>
-  <header>
-    <div class ="navbar">
-		<div class = "responsive-nav">
-      <button type="button" class="navbar-toggler" data-target="#mainNavigation">
-          <i class="fa fa-bars"></i>
-      </button>
-
-
-      <a class="navbar-brand" href="index.html" title="Branding"><img src="spaghetti.svg" title="logo" alt="logo">Brand</img></a></img>
-			</div>
-
-    <!-- NAVIGATION-->
-    <div id="mainNavigation" class="navbar-collapse">
-        <div class="nav">
-
-        <div class="nav-top">
-          <a class="navbar-brand" href="index.html" title="Branding"><img src="spaghetti.svg" title="logo" alt="logo">Brand</img></a></img>
-          <h3>Bella Vita II Italian Restaurant & Bar</h3>
-          <button class="navbar-shop" href="#" title="Shopping Bag"><img src="shop.png" title="Shopping Bag" alt="Shopping Bag">Shopping Bag</img></button>
-        </div>
-
-        <div class="nav-bottom">
-          <ul class="nav-bar">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="reservation.php">Reservation</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
-
-      </div>
-    </header>
 
     <!-- NAVIGATION End -->
 
@@ -235,6 +203,9 @@
 <i class="fas fa-arrow-alt-circle-up"></i></a>
 </div>
 </div>
+</div>
 </body>
-<?php echo makeFooter('footer'); ?>
+<?php
+	echo makeFooter('footer');
+?>
 </html>
