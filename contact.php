@@ -26,12 +26,12 @@
       <div class="contact-container">
       <div class="quick-contact">
         <h2> Quick Contact </h2>
-      <form action="contact-post.php">
+      <form action="contact-confirm.php" method="post">
       <div>
         <label for="fName">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="First Name">
+        <input type="text" id="fname" name="fName" placeholder="First Name">
         <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Last Name">
+        <input type="text" id="lname" name="lName" placeholder="Last Name">
       </div>
       <div>
         <label for="email">Email</label>
