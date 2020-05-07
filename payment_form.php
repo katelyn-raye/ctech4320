@@ -35,6 +35,10 @@
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
     </div>
+		<div>
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="user@domain">
+    </div>
   </div>
   <div class="address">
     <label for="address1">Address Line 1</label>
