@@ -7,9 +7,6 @@ function makeHeader ($page) {
       <button type="button" class="navbar-toggler" data-target="#mainNavigation">
           <i class="fa fa-bars"></i>
       </button>
-
-
-      <a class="navbar-brand" href="index.html" title="Branding"><img src="images/spaghetti.png" title="logo" alt="logo"></a>
 			</div>
 
     <!-- NAVIGATION-->
@@ -17,8 +14,10 @@ function makeHeader ($page) {
 <div id="mainNavigation" class="navbar-collapse">
 		<div class="nav">
     <div class="nav-top">
-      <a class="navbar-brand" href="index.html" title="Branding"><img src="images/grocery.png" title="logo" alt="logo"></a>
+		<a class="navbar-brand" href="index.php" title="Branding"><img src="images/plate.png" title="logo" alt="logo"></a>
+
       <p>Bella Vita II Italian Restaurant & Bar</p>
+			<a class="navbar-brand" href="shoppingcart.php" title="Branding"><img src="images/cart.png" title="logo" alt="logo"></a>
     </div>
 
     <div class="nav-bottom">
