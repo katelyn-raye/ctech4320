@@ -1,5 +1,116 @@
 <?php
 	include ('components.php');
+
+	$fName = $_POST['fName'];
+	$fLength = strlen($fName);
+	$lName = $_POST['lName'];
+	$lLength = strlen($lName);
+	$receiver = $_POST['email'];
+	$reason=$_POST['reason'];
+	$comment=$_POST['subject'];
+
+
+	if (array_key_exists("SubmitThis", $_POST)) {
+
+		//== Modify the required and expected arrays below to fit your form ========
+		$required = array('fName', 'lName','reason','email');
+		$expected = array('fName', 'lName','reason', 'subject', 'email');
+		$missing = array();
+
+		// use foreach loop to run through each item in the expected array
+		foreach($expected as $thisField) {
+			// setup a variable to store user input for this field name
+			$thisUserInput = $_POST[$thisField];
+			if (in_array($thisField, $required)) {
+				if (empty($thisUserInput)) {
+					array_push($missing, $thisField);
+				} else {
+					${$thisField} = $thisUserInput;
+				}
+			} else {
+				${$thisField} = $thisUserInput;
+			}
+		}
+
+
+
+		$err = array();
+
+	    //-----------------
+	    if ($fLength < 1) {
+
+	        $err['fName'] = "Please use at least 1 character.";
+	    }
+
+	    if ($lLength < 1) {
+
+	        $err['lName'] = "Please use at least 1 character.";
+	    }
+	    // validation: the name should be at least 1-character long.
+
+
+
+
+		// after running through all expected fields, check the $missing array. if there is no required field missing, the $missing array will be empty.
+
+
+		if (empty($missing) & empty($err)){
+	    if (!empty($email)) {
+				$email = "<a href='mailto:$email'>$email</a>"; }
+
+	      $success="<h1>Thanks for Reaching Out!</h1>";
+
+			$output="<p>Thanks for your inquiry <span class='resEmphasis'>$fName $lName</span>, we'll get in touch with you as soon as possible.
+			 A confirmation email was sent to you at $receiver</p>";
+	    $to="kathryn.kerr@mavs.uta.edu, $receiver"; // change this to your own email address
+	    $subject="Bella Vita Inquiry Confirmation";
+	    $header="From: bellavita@mysite.com";
+	    $message="Thank you $fName $lName, we recieved your inquiry about $reason.
+
+	    We'll get in touch!";
+	// try setting $message = $output; and see what you receive in the email
+
+	$mailSent = mail($to,$subject,$message,$header);
+
+	// add $emailResultMessage to the comment preview table as the final output
+	$output = $output.$emailResultMessage;
+
+
+		} else {
+
+	        $output = "<h3>Oops!</h3>\n
+	                <p>Our system is not able to process your request.  Please see the issues below.</p>\n";
+
+	        $output .= "<ul>";
+
+	        if (!empty($missing)){
+	            // $missing array is not empty -- prepare a message for the user
+
+	            $missingFieldList = implode(", ",$missing);
+	            $output .= "<li><b>Missing fields</b>:<br>
+	                        The following fields are missing from your post, please go back and fill them in.  Thank you. <br>
+							Missing fields: $missingFieldList \n
+						</li>\n";
+	        }
+
+	        if (!empty($err)){
+	            foreach ($err as $key => $message) {
+	                $output .= "<li><b>$key</b>:<br>$message </li>\n";
+	            }
+	        }
+
+	        $output .= "</ul>\n";
+		}
+
+
+	} else {
+		$output = "Please use <a href='contact.php'>this form</a> to make an inquiry.";
+	}
+
+
+
+
+
 ?>
 
 <!doctype html>
@@ -27,8 +138,8 @@
       <div class="thumb">
       <img src ="images/thumb.svg" title="thumbs up" alt="thumbs up">
     </div>
-    <h2>Thank You For Your Submission!<h2>
-    We will get back with you within a couple hours about your inquiry. If you have anymore questions please feel free to contact us directly by phone.
+    <?php echo $success ?>
+    <?php echo $output ?>
     </div>
     <div class="map">
         <h1>Contact Us</h1>

@@ -63,8 +63,10 @@ if (array_key_exists("SubmitThis", $_POST)) {
     if (!empty($email)) {
 			$email = "<a href='mailto:$email'>$email</a>"; }
 
+      $success="<h1>We've Received Your Reservation!</h1>";
+
 		$output="<p>Thank you <span class='resEmphasis'>$fName</span>, we'll have a table ready for your party of <span class='resEmphasis'>$partySize</span> at <span class='resEmphasis'>$time</span> on <span class='resEmphasis'>$date</span>. </p> <p>Your code is:</p><span id='resCode'>$code</span> <p>Show this code to the host to check in.</p>";
-    $to="kathryn.kerr@mavs.uta.edu"; // change this to your own email address
+    $to="kathryn.kerr@mavs.uta.edu, $receiver"; // change this to your own email address
     $subject="Bella Vita Reservation Confirmation";
     $header="From: bellavita@mysite.com";
     $message="Thank you $fName $lName, we recieved your reservation details for your party of $partySize on $date.
@@ -128,7 +130,7 @@ $output = $output.$emailResultMessage;
 			<p><b>We Cater. </b>Want us to be your personal chef for your special event? Call 817-483-0330.</p>
 		</div>
 		<div class="wrapper">
-			<h1>We've Received Your Reservation!</h1>
+			<?php echo $success ?>
     <p>
       <div class="resWrap">
     	<?php echo $output ?>
