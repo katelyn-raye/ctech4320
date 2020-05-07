@@ -1,6 +1,7 @@
 
 <?php
-	include ('components.php');
+	include('components.php');
+	include('shop_post.php');
 ?>
 
 <!doctype html>
@@ -90,6 +91,7 @@
     <div>
     <input type="text" id="tip" name="tip" placeholder="Enter Tip Amount">
     </div>
+		<p>Total: <?php echo $totalPrice;?></p>
     </div>
   <input type="submit"  name="SubmitThis" value="Submit">
   </form>

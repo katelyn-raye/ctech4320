@@ -1,6 +1,6 @@
 <?php
 	include('shop_post.php');
-	include ('components.php');
+	include('components.php');
 ?>
 <!doctype html>
 
@@ -26,13 +26,19 @@
 			</div>
 			<main>
 				<div class="wrapper">
+						<div class ="menu-items col-lg-9 col-md-10 col-xs-12">
 	<form action='shoppingcart.php' method='post'>
         <?php
         	echo $cartContent;
-					echo $totalPrice;
-        ?>
+					?>
       </form>
+			<br>
+			<p class="centerr">Total: <?php echo $totalPrice;?></p>
 		</div>
+		<a class="centerr" href="payment_form.php"><button class='addCart'>Check Out</button></a>
+		<form action="" method="post">
+		<input type="submit" name="deleteAll" value="Delete All" class='addCart centerr'></form>
+	</div>
 	</main>
 </body>
 

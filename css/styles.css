@@ -495,6 +495,16 @@ main p{
   margin: 10% 0 2% 0;
 }
 
+.centerr{
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  text-decoration: none;
+}
+
 .addCart{
   background-color: #CF4336;
   color: white;

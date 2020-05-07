@@ -41,15 +41,21 @@ include('menupost.php');
                         setcookie($cName, $newQuantity, time()+86400);
                         // manually define the cookie for use right now
                         $_COOKIE['cart'][$id] = $newQuantity;
-                    } else {
+
+                    }else {
                         // the item has not been added to the cart yet
                         setcookie($cName, $quantity, time()+86400);
                         $_COOKIE['cart'][$id] = $quantity;
                     }
-                } else {
+                }else {
                     // if no, set the cookie
                     setcookie($cName, $quantity, time()+86400);
                     $_COOKIE['cart'][$id] = $quantity;
+                }if (isset($_POST["deleteAll"])){
+                  // if yes, clean up the cookie
+                  setcookie($cName, $newQuantity, time()-86400);
+
+                  $_COOKIE['cart'][$id] = "";
                 }
 
           	} else {
@@ -93,7 +99,7 @@ include('menupost.php');
                       $itemCost = $food[$cartid]['price'];
                       $totalPrice = $totalPrice + $quantity * $itemCost;
 
-                    $cartContent = $cartContent . "<div class='item scrollmenu'>
+                    $cartContent = $cartContent . "<div class='item'>
                     <img class='itemPic'src='images/$itemImgURL'>
                     <h4 class='menu_title'>$itemName</h4>
                     <p class='cost'>$itemCost</p>
@@ -106,9 +112,6 @@ include('menupost.php');
                     </div>
                   </div>";
                     }
-
-                  //if (!empty($cartContent)){
-                  //  $cartTotal +=$price*$quantity;
                   }
 
 
