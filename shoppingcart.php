@@ -25,12 +25,14 @@
 				<p><b>We Cater. </b>Want us to be your personal chef for your special event? Call 817-483-0330.</p>
 			</div>
 			<main>
+				<div class="wrapper">
 	<form action='shoppingcart.php' method='post'>
         <?php
         	echo $cartContent;
 					echo $totalPrice;
         ?>
       </form>
+		</div>
 	</main>
 </body>
 

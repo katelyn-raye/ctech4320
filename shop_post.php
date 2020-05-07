@@ -91,10 +91,9 @@ include('menupost.php');
                       $itemName = $food[$cartid]['name'];
                       $itemImgURL = $food[$cartid]['imgURL'];
                       $itemCost = $food[$cartid]['price'];
-
                       $totalPrice = $totalPrice + $quantity * $itemCost;
 
-                    $cartContent = $cartContent . "<div class='item'>
+                    $cartContent = $cartContent . "<div class='item scrollmenu'>
                     <img class='itemPic'src='images/$itemImgURL'>
                     <h4 class='menu_title'>$itemName</h4>
                     <p class='cost'>$itemCost</p>
