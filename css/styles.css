@@ -355,6 +355,8 @@ body{
   font-family: 'Muli', 'Arial', sans-serif;
   display:block;
   background-color: #DB4C40;
+  border-radius: 5px;
+  padding:.5rem;
 
 }
 
