@@ -344,8 +344,18 @@ body{
   text-align: center;
 }
 
-.res-table {
-  width: 25%;
+.hp-btns {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.hp a { text-decoration: none;
+  color: white;
+  font-family: 'Muli', 'Arial', sans-serif;
+  display:block;
+  background-color: #DB4C40;
+
 }
 
 div{

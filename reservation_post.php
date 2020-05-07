@@ -128,15 +128,20 @@ $output = $output.$emailResultMessage;
 			<p><b>We Cater. </b>Want us to be your personal chef for your special event? Call 817-483-0330.</p>
 		</div>
 		<div class="wrapper">
-			<div="res-table">
-			<img src="images/table.jpg" alt="reserved table" title="table reservation">
-		</div>
 			<h1>We've Received Your Reservation!</h1>
     <p>
       <div class="resWrap">
     	<?php echo $output ?>
       </div>
     </p>
+	<div class="hp-btns">
+		<div class="hp">
+			<a href="index.php">Back to Home </a>
+		</div>
+		<div class="hp">
+			<a href="menutest.php"> View Menu</a>
+		</div>
+	</div>
   </body>
   <?php echo makeFooter('footer'); ?>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
