@@ -6,8 +6,8 @@
 	$lName = $_POST['lName'];
 	$lLength = strlen($lName);
 	$receiver = $_POST['email'];
-	$reason=$_POST['reason'];
-	$comment=$_POST['subject'];
+	$reason = $_POST['reason'];
+	$comment = $_POST['subject'];
 
 
 	if (array_key_exists("SubmitThis", $_POST)) {
@@ -58,7 +58,7 @@
 	    if (!empty($email)) {
 				$email = "<a href='mailto:$email'>$email</a>"; }
 
-	      $success="<h1>Thanks for Reaching Out!</h1>";
+	      $success="<h1>Thanks for Reaching Out!</h1><div class='thumb'><img src ='images/thumb.svg' title='thumbs up' alt='thumbs up'></div>";
 
 			$output="<p>Thanks for your inquiry <span class='resEmphasis'>$fName $lName</span>, we'll get in touch with you as soon as possible.
 			 A confirmation email was sent to you at $receiver</p>";
@@ -135,9 +135,7 @@
 
       <div class="contact-container">
     <div class="quick-contact col-lg-6 col-md-6">
-      <div class="thumb">
-      <img src ="images/thumb.svg" title="thumbs up" alt="thumbs up">
-    </div>
+
     <?php echo $success ?>
     <?php echo $output ?>
     </div>
