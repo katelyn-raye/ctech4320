@@ -130,6 +130,7 @@ $output = $output.$emailResultMessage;
 			<p><b>We Cater. </b>Want us to be your personal chef for your special event? Call 817-483-0330.</p>
 		</div>
 		<div class="wrapper">
+			<img src="table.jpg" alt="reserved table" title="table reservation">
 			<h1>We've Received Your Reservation!</h1>
     <p>
       <div class="resWrap">
