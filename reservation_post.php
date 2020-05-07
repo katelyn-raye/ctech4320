@@ -75,7 +75,7 @@ if (array_key_exists("SubmitThis", $_POST)) {
     Show the confirmation code to check in with the host. We can't wait to see you soon!";
 // try setting $message = $output; and see what you receive in the email
 
-$mailSent = mail($to,$subject,$header,$message);
+$mailSent = mail($to,$subject,$message,$header);
 
 // add $emailResultMessage to the comment preview table as the final output
 $output = $output.$emailResultMessage;
