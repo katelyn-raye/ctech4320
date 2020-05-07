@@ -28,7 +28,7 @@
         <h2> Quick Contact </h2>
       <form action="contact-post.php">
       <div>
-        <label for="fname">First Name</label>
+        <label for="fName">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="First Name">
         <label for="lname">Last Name</label>
         <input type="text" id="lname" name="lastname" placeholder="Last Name">
@@ -52,7 +52,7 @@
         <label for="subject">Subject</label>
         <textarea id="subject" name="subject" placeholder="Tell Us More.." style="height:200px"></textarea>
       </div>
-        <input type="submit" value="Submit">
+        <input type="Submit" name="SubmitThis" value="Submit" class="submit-btn">
 
       </form>
     </div>
