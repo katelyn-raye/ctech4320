@@ -18,7 +18,9 @@
 </head>
 <body>
   <?php echo makeHeader('header'); ?>
-
+	<div class="catering-banner">
+		<p><b>We Cater. </b>Want us to be your personal chef for your special event? Call 817-483-0330.</p>
+	</div>
   <div class="payment-container">
   <div class="billing-info">
     <h2> Billing Information</h2>
