@@ -57,8 +57,8 @@
 			<main>
 	<form action='shoppingcart.php' method='post'>
         <?php
-					echo $cartid;
         	echo $cartContent;
+					echo $totalPrice;
         ?>
       </form>
 	</main>

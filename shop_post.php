@@ -92,6 +92,8 @@ include('menupost.php');
                       $itemImgURL = $food[$cartid]['imgURL'];
                       $itemCost = $food[$cartid]['price'];
 
+                      $totalPrice = $totalPrice + $quantity * $itemCost;
+
                     $cartContent = $cartContent . "<div class='item'>
                     <img class='itemPic'src='images/$itemImgURL'>
                     <h4 class='menu_title'>$itemName</h4>
@@ -105,8 +107,10 @@ include('menupost.php');
                     </div>
                   </div>";
                     }
-              }
 
+                  //if (!empty($cartContent)){
+                  //  $cartTotal +=$price*$quantity;
+                  }
 
 
 	    // then just print out the above info (PRINTED ON A DIFFERENT PAGE)
