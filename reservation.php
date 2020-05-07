@@ -20,7 +20,7 @@
 				<p><b>We Cater. </b>Want us to be your personal chef for your special event? Call 817-483-0330.</p>
 			</div>
     <main>
-
+			<h1>Reserve Your Spot Today!</h1>
       <p>Parties of 10 or more please call to make your reservation.</p>
 
     <div class="resWrap">

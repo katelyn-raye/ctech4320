@@ -7,6 +7,7 @@ function makeHeader ($page) {
       <button type="button" class="navbar-toggler" data-target="#mainNavigation">
           <i class="fa fa-bars"></i>
       </button>
+			<a class="navbar-brand" href="shoppingcart.php" title="Branding"><img src="images/cart-r.png" title="logo" alt="logo"></a>
 			</div>
 
     <!-- NAVIGATION-->
@@ -53,7 +54,9 @@ $footer = '
              <br> 5694 FM 1187
                  <br> Rendon, TX 76140
            <br>817-483-0330
-           <br><a href="mailto:#">info@bellavita.com</a>
+           <br><a href="mailto:#">info@bellavita.com</a><br>
+					 <i>This Website is for Academic Use Only</i>
+
         </h5>
                     </section>
 
